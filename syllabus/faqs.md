@@ -1,8 +1,6 @@
 # Frequently Asked Questions
 
-Below are some of the questions I get asked everytime I teach Stat 133.
-Do you have to read them? Not really, but if you ever ask me a 
-question that it's here, I'm going to kindly ask you to refer to this document.
+_Below are some of the questions I get asked everytime I teach Stat 133._
 
 -----
 
@@ -11,8 +9,11 @@ question that it's here, I'm going to kindly ask you to refer to this document.
 Stat 133 is a highly demanded course, with a waiting list continuously increasing every year.
 From my past experience, between 5-7% of enrolled students tend to drop the course in the
 first two weeks, thus allowing between 15 to 20 students in the waitlist to join the class.
-This semester (fall 2017), however, there are about 110 waitlisted students. So if you 
-are outside the first 25 on the waitlist, you have a very low chance to join the class.
+
+
+### I am a concurrent student. What are my chances of enrolling in the class?
+
+Concurrent students have the lowest priority. Depending on the size of the waitlist, you may or may not have a chance to join the class. Last semester (Spring 2018), about a dozen of concurrent students were successfully enrolled.
 
 
 ### I am a grad student on the waitlist. What are my chances of enrolling in the class?
@@ -20,20 +21,22 @@ are outside the first 25 on the waitlist, you have a very low chance to join the
 If you are a grad student seriously interested in Stat 133, then you should try to schedule a meeting with me within the first two weeks of classes. While I cannot guarantee you a spot in the class, I would like to first determine if this course is a good fit for you. 
 
 
-### I am a concurrent student. What are my chances of enrolling in the class?
+### I am a grad student officialy enrolled. Do you have a grading structure for grad students?
 
-Concurrent students have the lowest priority. And looking at past trends, I don't think you
-have a chance of getting in the class.
+If you are a grad student enrolled in Stat 133, then you should schedule a meeting with me within the first 2/3 weeks of classes. I would like to know more about your program/project, and discuss the scope of the course with you. 
 
 
 ### I would like to switch lab sections with other student. Is this possible?
 
-In the past, under special circumstances, I allowed students to swap lab sections. But not anymore. Now you must attend the lab discussion you are officially registered in.
+Unfortunately, this is NOT possible. You must attend the lab discussion 
+you are officially registered in.
 
 
 ### What if I don't agree with all the course policies?
 
-If there is one or more [policies](policies.md) you don't agree with, then please reconsider your enrollment in the course. I am assuming that all students completely agree with the course policies.
+If there is one or more [policies](policies.md) you don't agree with, then 
+please reconsider your enrollment in the course. I am assuming that all 
+students completely agree with the course policies.
 
 
 ### Is this course a good fit if I don't have any programming experience?
@@ -48,13 +51,13 @@ the learning curve less steep.
 You may find the majority of this course somewhat slow (and boring?) in terms 
 of basics concepts such as data types, data structures, conditionals, loops, 
 and functions. Please consider taking more advanced courses if what you are 
-interested in is algorithms, computational statistics, or data bases.
+interested in is algorithms, computational statistics, data bases, or machine learning.
 
 
 ### Is this course a good fit if I don't have any data analysis experience?
 
 Yes. We actually expect that most of you come without any data analysis experience.
-In this course you will be working with real data sets, as well as with 
+In this course you will be working with fairly simple real data sets, as well as with 
 simulated data.
 
 
@@ -63,9 +66,9 @@ simulated data.
 Stat 133 is one of the core courses of the [Statistics Major](http://statistics.berkeley.edu/programs/undergrad/major). The way I teach the course is having Statistics majors as my target audience. However, much of the content should be helpful for any student who has to analyze data.
 
 
-### After finishing this course, can I call myself a data scientist?
+### Is this course a good fit to become a data scientist?
 
-Not yet. Becoming a data scientist is not a sprint. It is a marathon. Like any other 
+Becoming a data scientist is not a sprint. It is a marathon. Like any other 
 profession, it takes years of practice and learning. This course is just the beginning.
 
 
@@ -99,8 +102,8 @@ No. The course for linear models is __Stat 151A: Linear Modeling, Theory and App
 
 ### Are we going to learn about Reproducible Research (RR)?
 
-Not really. We will touch on dynamic documents and practices that are useful 
-in RR, but the dedicated course for this topic is 
+We are just going to scratch the surface. We will touch on dynamic documents and 
+practices that are useful in RR, but the dedicated course for this topic is 
 __Stat 159: Reproducible and Collaborative Statistical Data Science__.
 
 
@@ -112,9 +115,8 @@ you learn the most common types of functions: e.g. `library()`, `function()`, `h
 
 ### Are we going to learn how to create an R package?
 
-No. Unfortunately, this is out of the scope of the course. But if some of you 
-are really interested in creating a basic package, we can try to organize some 
-sort of workshop for that purpose.
+Yes, by popular demand we started teaching how to create an R package last semester,
+and we will repeat it this time.
 
 
 ### Can we work in groups?
@@ -161,26 +163,4 @@ with new ideas and experiments, and it's nice to have additional human resources
 to create something useful, interesting, open (and cool). If you are 
 interested in volunteering and willing to learn a lot, come talk to me and 
 let's see if we can join forces, and add our two cents to the world.
-
-
-### How did you learn R?
-
-I basically learned R by myself. I was introduced to R way back in 2001 when I 
-was a senior undergrad. We used R to fit regression models. Then I used R for 
-my undergrad thesis with applications of cluster analysis. A couple of years later when I went to grad school (2004) I started to use R on a daily basis. My advisor gave me a couple of books on multivariate statistics and kindly asked me to replicate all of the examples in R. Keep in mind that back then, you could literally count the number of published books about R with the fingers of one hand.
-
-
-### When did you create your first R package?
-
-I created my first R package for my PhD dissertation. It took me about 2 years to write the code (i.e. the functions). The challenging part was the process to package all the functions, which took me several frustrating attempts until successfully completion in April 2009. Again, there was almost no documentation on how to create R packages.
-
-
-### How many R packages have you developed?
-
-I've created about 16 or so packages. A handful of them have been experimental packages that I've never submitted to CRAN.
-
-
-### How do you memorize all those commands?
-
-I don't. I've been able to memorize those commands that I constantly use, but there are still many functions (that I use a lot) with arguments that I can't remember their names and/or their meanings. That's why the help/manual documentation is critical for all users.
 
