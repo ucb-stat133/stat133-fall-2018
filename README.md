@@ -9,19 +9,19 @@ __Statistics 133: Concepts in Computing with Data__ at UC Berkeley.
 - __Session Dates:__ 08/22/18 - 12/07/18
 - __Code #:__ 23939
 - __Units:__ 3 (more info [here](http://classes.berkeley.edu/content/2018-fall-stat-133-001-lec-001))
-- __Office Hours:__ MWF 11am-12pm in 309 Evans
 - __Final:__ mm/dd/yy (room TBD)
 - __Piazza:__ [piazza.com/berkeley/spring2018/stat133](https://piazza.com/berkeley/spring2018/stat133)
 - __GSIs:__ Office hours of the GSIs displayed below.
 You can go to the office hours of __any__ GSI, not just your own.
 
-| GSI          | Room      | Day/Time            |
-|:-------------|:----------|:--------------------|
-| TBA          | 342 Evans |   TBD               |
-| TBA          | 342 Evans |   TBD               |
-| TBA          | 342 Evans |   TBD               |
-| TBA          | 342 Evans |   TBD               |
-| TBA          | 342 Evans |   TBD               |
+| Name           | Room      | Day/Time            |
+|:---------------|:----------|:--------------------|
+| Gaston Sanchez | 309 Evans | MWF 11am-12pm       |
+| TBA            | 342 Evans |   TBD               |
+| TBA            | 342 Evans |   TBD               |
+| TBA            | 342 Evans |   TBD               |
+| TBA            | 342 Evans |   TBD               |
+| TBA            | 342 Evans |   TBD               |
 
 
 - __Lab Sections:__
