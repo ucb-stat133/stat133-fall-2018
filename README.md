@@ -11,8 +11,7 @@ __Statistics 133: Concepts in Computing with Data__ at UC Berkeley.
 - __Units:__ 3 (more info [here](http://classes.berkeley.edu/content/2018-fall-stat-133-001-lec-001))
 - __Final:__ mm/dd/yy (room TBD)
 - __Piazza:__ [piazza.com/berkeley/spring2018/stat133](https://piazza.com/berkeley/spring2018/stat133)
-- __GSIs:__ Office hours of the GSIs displayed below.
-You can go to the office hours of __any__ GSI, not just your own.
+- __Office Hours:__ You can go to the office hours of __any__ staff member.
 
 | Name           | Room      | Day/Time            |
 |:---------------|:----------|:--------------------|
@@ -152,7 +151,7 @@ about the structure of the course, DO's and DONT's, etc.
 
 <a href="syllabus/policies.md"><img src="images/it-is-in-the-syllabus.png" width="580" height="330"></a>
 
-- I've prepared a list of [Frequently Asked Questions](syllabus/faqs.md) that I get asked 
+- Here's a list of [Frequently Asked Questions](syllabus/faqs.md) that I get asked 
 every semester.
 
 
