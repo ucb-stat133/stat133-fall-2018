@@ -1,6 +1,6 @@
 ## Stat 133 Course Logistics and Policies
 
-_I reserve the right to make change to the syllabus_
+_I reserve the right to make changes to the syllabus_
 
 ![Mrs Mutner Rules](../images/mrs-mutner-rules.jpg)
 
@@ -32,10 +32,9 @@ As Stat 133 gets larger and larger every year, running the course as smoothly as
 - Lecture is meant to discuss concepts and fundamentals of computing with data.
 - Attending lecture is part of your grade.
 - We will track attendance with short questions asked during lecture.
-- To receive full credit, you need to be present and answer at least 75% of 
-asked questions throughout the semester.
-- If you answer less than 75% of the asked quesstions, you won't receive credit 
-for class participation.
+- To receive full credit, you need to be present and answer at least 80% of 
+asked questions throughout the semester. Otherwise, you won't receive credit 
+for participation.
 
 
 ### Labs
