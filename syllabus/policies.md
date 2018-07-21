@@ -69,13 +69,12 @@ progress with the course.
 
 ### Warm-Up Assignments
 
-- The first three assignments are "warm-up" assignments.
+- One type of assignments consists of so-called "warm-up" assignments.
 - Roughly speaking, a warm-up assignment is a relatively simple piece of work.
 - They should allow you to acquire the basic skills that you will later apply on the so-called 
 _work-out_ assignments.
-- You will have till the end of September to submit them to __bCourses__ (deadline is Sep-28).
-- After the deadline, no late warm-up assignments will be accepted.
-- We want to give you plenty of time to make sure that you have all the required software and workspace ready for the rest of the course.
+- Due to the ever present logistical issues at the beginning of every semester, you will have till the Sep-18 to submit the first three warm-ups to __bCourses__.
+- After Sep-18, no late warm-up assignments will be accepted.
 
 
 
@@ -84,7 +83,7 @@ _work-out_ assignments.
 - The second type of assignments are what we call "work-out" assignments.
 - You will submit your work-out assignments to your private Github repository. 
 - You should also submit the github's link of your assignment to bCourses.
-- __Late work-out assignments__ will receive a deduction of 50%. An assignment is considered to be late if it is submitted or pushed after the corresponding deadline.
+- __Late work-out assignments__ will receive a deduction of 50%. An assignment is considered to be late if it is submitted or pushed after the corresponding deadline (up to a week later).
 
 
 
@@ -135,8 +134,8 @@ Grades will be assigned using the following weighted components:
 |----------------------|--------|
 | Class participation  |   5%   |
 | Lab work             |  10%   |
-| Warm-up assignments  |  10%   |
-| Work-out assignments |  40%   |
+| Warm-up assignments  |  20%   |
+| Work-out assignments |  30%   |
 | Midterm              |  10%   |
 | Final                |  25%   |
 | _Oral evaluation_    |   ?%   |
