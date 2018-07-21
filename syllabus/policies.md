@@ -142,9 +142,13 @@ Grades will be assigned using the following weighted components:
 
 - No individual letter grades will be given for midterm, or final.
 - You will get a letter grade for the course that is based on your overall score.
-- Letter grades are final; I don't enter into negotiations with students about grades.
 - The course will not be curved, but details of grading criteria will not be announced in advance. 
 - In theory, it is certainly possible for all students to receive high grades in this course if all of you show mastery of the material on exams and complete all assignments.
+- Letter grades are final; I don't enter into negotiations with students about grades.
+- Please do not embarrass yourself and me by begging for extra credit or late submissions after final grades have been awarded.
+- Also, please remember that I grade your performance, not your personal worth.
+
+<a href="syllabus/policies.md"><img src="../images/extra-credit.png"></a>
 
 
 
