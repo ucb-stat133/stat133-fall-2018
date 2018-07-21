@@ -36,7 +36,7 @@
 ## 1. The Big Picture and R Survival Skills
 
 - :card_index: __Dates__: Aug 27-31
-- :paperclip: __Topics__: First things first. At the conceptual level we'll discuss how data analysis projects usually start with a Research Question. And how Data can actually be seen from a triangular perspective (i.e. my "3 Views of Data"). At the practical level, you'll begin learning basic survival skills for R, followed by an overall review of the RStudio workspace. Then we move on to discuss basic data types and their implementation in R around vectors and other data structures. 
+- :paperclip: __Topics__: First things first. At the conceptual level we'll discuss how data analysis projects usually start with a Research Question. Also, we'll describe how Data can actually be seen from a triangular perspective (i.e. my "3 Views of Data"). At the practical level, you'll begin learning basic survival skills for R, followed by an overall review of the RStudio workspace. Then we move on to discuss basic data types and their implementation in R around vectors and other data structures. 
 - :file_folder: __Notes__:
     + [The Starting Point: Research Questions](02-research-question.pdf) (slides)
     + [The Three Views of Data](03-data perspectives)
@@ -53,7 +53,7 @@
     + [RStudio cheat sheet](../cheatsheets/rstudio-IDE-cheatsheet.pdf)
     + [R markdown cheat sheet](../cheatsheets/rmarkdown-cheatsheet-2.0.pdf)
 - :dart: __WARM-UP 1__:
-    + [Markdown practice](../hws/warmup01-markdown.pdf) (due Sep-04)
+    + [Markdown practice](../hws/warmup01-markdown.pdf) (due Sep-04, open till Sep-18)
 
 
 -----
@@ -62,12 +62,13 @@
 ## 2. More Data Structures: Arrays, Lists, and Dataframes
 
 - :card_index: __Dates__: Sep 03-07 _(Holiday Sep-03)_
-- :paperclip: __Topics__: In this week you'll keep learning about more data R structures like arrays and lists. More specifically, we'll focus on fundamental concepts like atomicity, vectorization, recycling, and subsetting. And given that we are studying vectors and its cousins, we'll briefly review the traditional _base_ graphics approach that is based on R vectors.
+- :paperclip: __Topics__: In this week you'll keep learning more about R data structures like arrays and lists. More specifically, we'll focus on fundamental concepts like atomicity, vectorization, recycling, and subsetting. And given that we are studying vectors and its cousins, we'll briefly review the traditional _base_ graphics approach that is based on R vectors.
 - :file_folder: __Notes__:
-    + [Arrays and Factors](../slides/04-arrays-factors.pdf) (slides)
-    + [Lists](../slides/05-lists.pdf) (slides)
-    + [Base Graphics I](../slides/06-base-graphics1.pdf) (slides)
-    + [Base Graphics II](../slides/07-base-graphics2.pdf) (slides)
+    + [Arrays and Factors](../slides/05-arrays-factors.pdf) (slides)
+    + [Lists](../slides/06-lists.pdf) (slides)
+    + [Data Frames](../slides/07-data-frames.pdf) (slides)
+    + [Base Graphics I](../slides/08a-base-graphics1.pdf) (slides)
+    + [Base Graphics II](../slides/08b-base-graphics2.pdf) (slides)
 - :book: __Reading__:
     + [Intro to vectors](../tutorials/03-intro-to-vectors.md) (tutorial)
 - :microscope: __Lab__:
@@ -77,7 +78,7 @@
 - :bulb: __Cheat sheet__: 
     + [Base R](../cheatsheets/base-r-cheatsheet.pdf)
 - :dart: __WARM-UP 2__:
-    + [Vectors and Factors](../hws/warmup02-vector-basics.pdf) (due Sep-11)
+    + [Vectors and Factors](../hws/warmup02-vector-basics.pdf) (due Sep-11, open till Sep-18)
 
 
 -----
@@ -86,40 +87,42 @@
 ## 3. Housekeeping: Filesystem and Bash Commands
 
 - :card_index: __Dates__: Sep 10-14
-- :paperclip: __Topics__: Data Analysis Projects (DAPs) are made of files and directories. Therefore, we need to review some fundamental concepts such as the file-system, command line interface, and bash commands.
+- :paperclip: __Topics__: Data Analysis Projects (DAPs) are made of files and directories. Therefore, we need to review some fundamental concepts such as the file-system, the command line interface, and some basic shell commands. At the practical level, you will have the chance to practice some data manipulation operations on data frames.
 - :file_folder: __Notes__:
-    + [Filesystem Basics](../slides/08-filesystem-basics.pdf) (slides)
-    + [Shell Basics](../slides/09-shell-basics.pdf) (slides)
-    + [Working with files](../slides/10-working-with-files.pdf) (slides)
+    + [Filesystem Basics](../slides/09-filesystem-basics.pdf) (slides)
+    + [Shell Basics](../slides/10-shell-basics.pdf) (slides)
+    + [Working with files](../slides/11-working-with-files.pdf) (slides)
 - :book: __Reading__:
     + [Linux Tutorial](https://ryanstutorials.net/linuxtutorial/) lessons 1-5 (by Ryan Chadwick)
+    + [The Unix Shell](http://swcarpentry.github.io/shell-novice/) lessons 1-3 (by Software Carpentry)
 - :microscope: __Lab__:
     + [Command Line Basics](../labs/lab03-command-line-basics.md)
-    + [The Unix Shell](http://swcarpentry.github.io/shell-novice/) lessons 1-3 (by Software Carpentry)
 - :newspaper: __Misc__:
     + [Linux Command Line tutorial](https://www.guru99.com/terminal-file-manager.html) (by Guru99)
 - :bulb: __Cheat sheet__:
     + [command line cheat sheet](../cheatsheets/command-line-cheatsheet.pdf)
 - :dart: __WARM-UP 3__:
-    + [Shell Commands](../hws/warmup03-shell-basics.pdf) (due Sep-18)
+    + [Data Frame Basics](../hws/warmup03-data-frame-basics.pdf) (due Sep-18)
 
 
 -----
 
 
-## 4. Housekeeping: Git, GitHub
+## 4. Housekeeping: Version Control with Git and GitHub
 
 - :card_index: __Dates__: Sep 17-21
 - :paperclip: __Topics__: We continue talking about filestructure topics, and we introduce basic notions of version control systems (VCS) using Git, and the companion hosting platform GitHub.
 On the Data side, we begin our discussion about Tables: the most common form in which data is stored, handled, and manipulated. Consequently, we need to talk about the typical storage formats of tabular data, and the relationship between tables and R data frames.
 - :file_folder: __Notes__:
-    + [Git Basics](../slides/11-git-basics.pdf) (slides)
-    + [Data Tables](../slides/12-data-tables.pdf) (slides)
-    + [Importing Tables in R](../slides/13-importing-tables.pdf) (slides)
+    + [Git Basics](../slides/12-git-basics.pdf) (slides)
+    + [Git Workflow](../slides/13-git-workflow.pdf) (slides)
+    + [Data Tables](../slides/14-data-tables.pdf) (slides)
+    + [Importing Tables in R](../slides/15-importing-tables.pdf) (slides)
 - :book: __Reading__:
     + Read sections 4 to 9 in Part I [Installation](http://happygitwithr.com/installation-pain.html) (_Happy Git and GitHub for the useR_ by Jenny Bryan et al.)
     + [Basic manipulation of Data Frames](../slides/14-data-frame-basics.pdf) (slides)
 - :microscope: __Lab__:
+    + Work on episodes 2 to 7 of the tutorial [Version Control with Git](http://swcarpentry.github.io/git-novice/) (by Software Carpentry)
     + [Getting started with data frames](../labs/lab04-data-frame-basics.md)
 - :newspaper: __Misc__:
     + [Data Import](http://r4ds.had.co.nz/data-import.html) (_R for Data Science_ by Grolemund and Wickham)
@@ -137,7 +140,7 @@ On the Data side, we begin our discussion about Tables: the most common form in 
 ## 5. Transforming and Visualizing Tabular Data
 
 - :card_index: __Dates__: Sep 24-28
-- :paperclip: __Topics__: Because data tables are so uniquituos, it's importnat that you learn how to manipulate them via R data frames in a "modern" and syntactic way following the _data plying_ framework provided by the package `"dplyr"`. Likewise, we begin reviewing the visualization paradigm of `"ggplot2"` which is based on data frames.
+- :paperclip: __Topics__: Because data tables are so uniquituos, it's important that you learn how to manipulate them via R data frames in a "modern" and syntactic way following the _data plying_ framework provided by the package `"dplyr"`. Likewise, we begin reviewing the visualization paradigm of `"ggplot2"` which is based on data frames.
 - :file_folder: __Notes__:
     + ["dplyr" tutorial slides](../slides/17-dplyr-tutorial.pdf) (by Hadley Wickham)
     + [Grammar of Graphics framework](../slides/18-grammar-graphics.pdf) (slides)
@@ -174,7 +177,7 @@ On the Data side, we begin our discussion about Tables: the most common form in 
 - :bulb: __Cheat sheet__:
     + [Data transformation cheat sheet](../cheatsheets/data-transformation-cheatsheet.pdf)
     + [Command line cheat sheet](../cheatsheets/command-line-cheatsheet.pdf)
-- :dart: __HW 2__: due Mar-09
-    + [Data Wrangling and visualization](../hws/hw02-shot-charts.pdf)
+- :dart: __WORK-OUT 1__:
+    + [Data Wrangling and visualization](../hws/workout01-shot-charts.pdf)
 
 
