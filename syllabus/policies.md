@@ -101,7 +101,7 @@ _work-out_ assignments.
 
 - There will be one 50-minute in-class midterm, and one 3-hour final exam.
 - The midterm exam will be held in class (during lecture period). Tentative date on Friday, October 5 (to be confirmed). 
-- The final exam will be held from time1 to time2 on Month-day, as scheduled by the university, in a room to be announced.
+- The final exam will be held from 7pm to 10pm (room TBD) on 12/10/18, as scheduled by the university, in a room to be announced.
 - If you do not take the final, you will NOT pass the class.
 - Unless you have accommodations as determined by the university, you must take the midterm and the final at the dates and times provided here.
 - Please check your course schedule and make sure that you have no conflicts with these exams.There will be __no early or makeup exams__. 
