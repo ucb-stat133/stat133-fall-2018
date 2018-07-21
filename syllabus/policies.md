@@ -148,7 +148,7 @@ Grades will be assigned using the following weighted components:
 - Please do not embarrass yourself and me by begging for extra credit or late submissions after final grades have been awarded.
 - Also, please remember that I grade your performance, not your personal worth.
 
-<a href="syllabus/policies.md"><img src="../images/extra-credit.png" width="450" height="300"></a>
+<a href="syllabus/policies.md"><img src="../images/extra-credit.png" width="470" height="300"></a>
 
 
 
