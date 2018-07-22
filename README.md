@@ -9,7 +9,7 @@ __Statistics 133: Concepts in Computing with Data__ at UC Berkeley.
 - __Session Dates:__ 08/22/18 - 12/07/18
 - __Code #:__ 23939
 - __Units:__ 3 (more info [here](http://classes.berkeley.edu/content/2018-fall-stat-133-001-lec-001))
-- __Final:__ mm/dd/yy (room TBD)
+- __Final:__ 12/10/18, 7-10pm (room TBD)
 - __Piazza:__ [piazza.com/berkeley/spring2018/stat133](https://piazza.com/berkeley/spring2018/stat133)
 - __Office Hours:__ You can go to the office hours of __any__ staff member.
 
