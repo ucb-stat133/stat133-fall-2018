@@ -38,8 +38,8 @@
 - :card_index: __Dates__: Aug 27-31
 - :paperclip: __Topics__: First things first. At the conceptual level we'll discuss how data analysis projects usually start with a Research Question. Also, we'll describe how Data can actually be seen from a triangular perspective (i.e. my "3 Views of Data"). At the practical level, you'll begin learning basic survival skills for R, followed by an overall review of the RStudio workspace. Then we move on to discuss basic data types and their implementation in R around vectors and other data structures. 
 - :file_folder: __Notes__:
-    + [The Starting Point: Research Questions](02-research-question.pdf) (slides)
-    + [The Three Views of Data](03-data perspectives)
+    + [The Starting Point: Research Questions](../slides/02-research-question.pdf) (slides)
+    + [The Three Views of Data](../slides/03-data perspectives.pdf) (slides)
     + Be the Boss of your Data (talk and chalk)
     + [Data Types and Vectors](../slides/04-R-vector-types.pdf) (slides)
 - :book: __Reading__:
@@ -155,6 +155,8 @@ On the Data side, we begin our discussion about Tables: the most common form in 
 - :bulb: __Cheat sheet__:
     + [Data transformation cheat sheet](../cheatsheets/data-transformation-cheatsheet.pdf)
     + [Data visualization with ggplot2](../cheatsheets/ggplot2-cheatsheet-2.1.pdf)
+- :dart: __WORK-OUT 1__:
+    + [Data Wrangling and visualization](../hws/workout01-shot-charts.pdf) (due Oct-05)
 
 
 -----
@@ -162,7 +164,7 @@ On the Data side, we begin our discussion about Tables: the most common form in 
 
 ## 6. More Wrangling, Pipes, and Exporting Outputs
 
-- :card_index: __Dates__: Oct 01-04
+- :card_index: __Dates__: Oct 01-05
 - :paperclip: __Topics__: We continue reviewing more aspects of `"dplyr"` and the famous pipe operator. 
 - :file_folder: __Notes__:
     + [Pipes with `"dplyr"`](../tutorials/05-dplyr-pipes.md) (tutorial)
@@ -177,7 +179,46 @@ On the Data side, we begin our discussion about Tables: the most common form in 
 - :bulb: __Cheat sheet__:
     + [Data transformation cheat sheet](../cheatsheets/data-transformation-cheatsheet.pdf)
     + [Command line cheat sheet](../cheatsheets/command-line-cheatsheet.pdf)
-- :dart: __WORK-OUT 1__:
-    + [Data Wrangling and visualization](../hws/workout01-shot-charts.pdf)
+- :mortar_board: __MIDTERM 1__: Friday Oct-05
 
 
+
+-----
+
+
+## 7. Transition to Programming Basics for data analysis (part 1)
+
+- :card_index: __Dates__: Oct 08-12
+- :paperclip: __Topics__: You don’t need to be an expert programmer to be a data scientist, but learning more about programming allows you to automate common tasks, and solve new problems with greater ease. We'll discuss how to write basic functions, the notion of R expressions, and an introduction to conditionals. 
+- :file_folder: __Notes__:
+    + [Creating functions](../tutorials/09-creating-functions.md) (tutorial)
+    + [Introduction to functions](../tutorials/10-intro-to-functions.md) (tutorial)
+    + [Introduction to R expressions and conditionals](../tutorials/11-intro-to-expressions-conditionals.md) (tutorial)
+- :microscope: __Lab__:
+    + [Getting started with functions and conditionals](../labs/lab07-simple-functions.md)
+- :newspaper: __Misc__: 
+    + [chapter 19: Functions](http://r4ds.had.co.nz/functions.html) (_R for Data Science_ by Grolemund and Wickham)
+- :dart: __WARM-UP 5__:
+    + [Function Basics](../hws/warmup05-function-basics.pdf) (due Oct-16)
+
+
+-----
+
+
+## 8. Programming Basics for data analysis (part 2)
+
+- :card_index: __Dates__: Oct 15-19
+- :paperclip: __Topics__: In addition to writing functions to reduce duplication in your code, you also need to learn about iteration, which helps you when you need to do the same operation several times. Namely, we review control flow structures such as `for` loops, `while` loops, `repeat` loops, and the `apply` family functions.
+- :file_folder: __Notes__:
+    + [Introduction to loops](../tutorials/12-intro-to-loops.md) (tutorial)
+    + [More about functions](../tutorials/13-more-functions.md) (tutorial)
+    + [Functions](http://adv-r.had.co.nz/Functions.html) (_Advanced R_ by H. Wickham)
+- :microscope: __Lab__: 
+    + [Getting started with loops](../labs/lab08-simple-loops.md)
+- :newspaper: __Misc__:
+    + [chapter 21: Iteration](http://r4ds.had.co.nz/iteration.html) (_R for Data Science_ by Grolemund and Wickham)
+- :dart: __WARM-UP 6__:
+    + [Pipelines and Programming Basics](../hws/warmup06-programming-basics.pdf) (due Oct-23)
+
+
+-----
