@@ -75,7 +75,7 @@ profession, it takes years of practice and learning. This course is just the beg
 ### What if I don't want to be a data scientist?
 
 That's perfect too. You don't need to be a data scientist aspirant to take this course.
-Whether your plans are to be a consultant, life scientist, social scientist, 
+Whether your plans are to become a consultant, life scientist, social scientist, 
 journalist, or get some analytic skills, this course should be a good choice.
 
 
