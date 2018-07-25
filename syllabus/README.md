@@ -39,14 +39,14 @@
 - :paperclip: __Topics__: First things first. At the conceptual level we'll discuss how data analysis projects usually start with a Research Question. Also, we'll describe how Data can actually be seen from a triangular perspective (i.e. my "3 Views of Data"). At the practical level, you'll begin learning basic survival skills for R, followed by an overall review of the RStudio workspace. Then we move on to discuss basic data types and their implementation in R around vectors and other data structures. 
 - :file_folder: __Notes__:
     + [The Starting Point: Research Questions](../slides/02-research-question.pdf) (slides)
-    + [The Three Views of Data](../slides/03-data perspectives.pdf) (slides)
+    + [The Three Views of Data](../slides/03-data-perspectives.pdf) (slides)
     + Be the Boss of your Data (talk and chalk)
     + [Data Types and Vectors](../slides/04-R-vector-types.pdf) (slides)
 - :book: __Reading__:
     + [First contact with R](../tutorials/01-intro-to-R.md) (tutorial)
     + [Intro to Rmd files](../tutorials/02-intro-to-Rmd-files.md) (tutorial)
 - :microscope: __Lab__:
-    + [Getting started with R and RStudio](../labs/lab01-R-basics.md)
+    + [Getting started with R and RStudio](../labs/lab01-R-basics.md) (due Sep-01)
 - :newspaper: __Misc__:
     + [Introduction to R Markdown](http://rmarkdown.rstudio.com/lesson-1.html) (by RStudio)
 - :bulb: __Cheat sheet__: 
@@ -72,7 +72,7 @@
 - :book: __Reading__:
     + [Intro to vectors](../tutorials/03-intro-to-vectors.md) (tutorial)
 - :microscope: __Lab__:
-    + [Getting started with vectors and factors](../labs/lab02-vector-basics.md)
+    + [Getting started with vectors and factors](../labs/lab02-vector-basics.md) (due Sep-08)
 - :newspaper: __Misc__:
     + [chapter 20: Vectors](http://r4ds.had.co.nz/vectors.html) (_R for Data Science_ by Grolemund and Wickham)
 - :bulb: __Cheat sheet__: 
@@ -96,7 +96,7 @@
     + [Linux Tutorial](https://ryanstutorials.net/linuxtutorial/) lessons 1-5 (by Ryan Chadwick)
     + [The Unix Shell](http://swcarpentry.github.io/shell-novice/) lessons 1-3 (by Software Carpentry)
 - :microscope: __Lab__:
-    + [Command Line Basics](../labs/lab03-command-line-basics.md)
+    + [Command Line Basics](../labs/lab03-command-line-basics.md) (due Sep-15)
 - :newspaper: __Misc__:
     + [Linux Command Line tutorial](https://www.guru99.com/terminal-file-manager.html) (by Guru99)
 - :bulb: __Cheat sheet__:
@@ -123,7 +123,7 @@ On the Data side, we begin our discussion about Tables: the most common form in 
     + [Basic manipulation of Data Frames](../slides/14-data-frame-basics.pdf) (slides)
 - :microscope: __Lab__:
     + Work on episodes 2 to 7 of the tutorial [Version Control with Git](http://swcarpentry.github.io/git-novice/) (by Software Carpentry)
-    + [Getting started with data frames](../labs/lab04-data-frame-basics.md)
+    + [Getting started with data frames](../labs/lab04-data-frame-basics.md) (due Sep-22)
 - :newspaper: __Misc__:
     + [Data Import](http://r4ds.had.co.nz/data-import.html) (_R for Data Science_ by Grolemund and Wickham)
     + [Organizing data in spreadsheets](http://kbroman.org/dataorg/) (by Karl Broman)
@@ -140,7 +140,7 @@ On the Data side, we begin our discussion about Tables: the most common form in 
 ## 5. Transforming and Visualizing Tabular Data
 
 - :card_index: __Dates__: Sep 24-28
-- :paperclip: __Topics__: Because data tables are so uniquituos, it's important that you learn how to manipulate them via R data frames in a "modern" and syntactic way following the _data plying_ framework provided by the package `"dplyr"`. Likewise, we begin reviewing the visualization paradigm of `"ggplot2"` which is based on data frames.
+- :paperclip: __Topics__: Because data tables are so uniquituos, it's important that you learn how to manipulate them via R data frames in a more modern and syntactic way. How? By following the _data plying_ framework provided by the package `"dplyr"`. Likewise, we begin reviewing the visualization paradigm of `"ggplot2"` which is based on data frames.
 - :file_folder: __Notes__:
     + ["dplyr" tutorial slides](../slides/17-dplyr-tutorial.pdf) (by Hadley Wickham)
     + [Grammar of Graphics framework](../slides/18-grammar-graphics.pdf) (slides)
@@ -148,7 +148,7 @@ On the Data side, we begin our discussion about Tables: the most common form in 
     + ["ggplot2" lecture](../slides/19-ggplot-lecture.pdf) (by Karthik Ram)
 - :microscope: __Lab__:
     + [GitHub Classroom](../labs/lab03-github-classroom.pdf)
-    + [Getting started with dplyr and ggplot2](../labs/lab05-dplyr-ggplot-basics.md)
+    + [Getting started with dplyr and ggplot2](../labs/lab05-dplyr-ggplot-basics.md) (due Sep-29)
 - :newspaper: __Misc__:
     + [tibbles vignette](https://cran.r-project.org/web/packages/tibble/vignettes/tibble.html)
     + [Introduction to dplyr](https://cran.r-project.org/web/packages/dplyr/vignettes/dplyr.html) (by Hadley Wickham)
@@ -168,12 +168,12 @@ On the Data side, we begin our discussion about Tables: the most common form in 
 - :paperclip: __Topics__: We continue reviewing more aspects of `"dplyr"` and the famous pipe operator. 
 - :file_folder: __Notes__:
     + [Pipes with `"dplyr"`](../tutorials/05-dplyr-pipes.md) (tutorial)
-    + [Shell input/output redirection](../tutorials/07-shell-redirections.md) (tutorial)
-    + [Shell filters](../tutorials/08-shell-filters.md) (tutorial)
+    + [Shell input/output redirection](../tutorials/06-shell-redirections.md) (tutorial)
+    + [Shell filters](../tutorials/07-shell-filters.md) (tutorial)
 - :book: __Reading__:
     + [Pipes](http://r4ds.had.co.nz/pipes.html) (_R for Data Science_ by Grolemund and Wickham)
 - :microscope: __Lab__:
-    + [More data wrangling, and exporting outputs](../labs/lab06-more-data-wrangling.md)
+    + [More data wrangling, and exporting outputs](../labs/lab06-more-data-wrangling.md) (due Oct-06)
 - :newspaper: __Misc__:
     + [Tidy Data](../papers/tidy-data-wickham) (by Hadley Wickham)
 - :bulb: __Cheat sheet__:
@@ -186,16 +186,16 @@ On the Data side, we begin our discussion about Tables: the most common form in 
 -----
 
 
-## 7. Transition to Programming Basics for data analysis (part 1)
+## 7. Transition to Programming Basics for Data Analysis (part 1)
 
 - :card_index: __Dates__: Oct 08-12
 - :paperclip: __Topics__: You don’t need to be an expert programmer to be a data scientist, but learning more about programming allows you to automate common tasks, and solve new problems with greater ease. We'll discuss how to write basic functions, the notion of R expressions, and an introduction to conditionals. 
 - :file_folder: __Notes__:
-    + [Creating functions](../tutorials/09-creating-functions.md) (tutorial)
-    + [Introduction to functions](../tutorials/10-intro-to-functions.md) (tutorial)
-    + [Introduction to R expressions and conditionals](../tutorials/11-intro-to-expressions-conditionals.md) (tutorial)
+    + [Creating functions](../tutorials/08-creating-functions.md) (tutorial)
+    + [Introduction to functions](../tutorials/09-intro-to-functions.md) (tutorial)
+    + [Introduction to R expressions and conditionals](../tutorials/10-intro-to-expressions-conditionals.md) (tutorial)
 - :microscope: __Lab__:
-    + [Getting started with functions and conditionals](../labs/lab07-simple-functions.md)
+    + [Getting started with functions and conditionals](../labs/lab07-simple-functions.md) (due Oct-13)
 - :newspaper: __Misc__: 
     + [chapter 19: Functions](http://r4ds.had.co.nz/functions.html) (_R for Data Science_ by Grolemund and Wickham)
 - :dart: __WARM-UP 5__:
@@ -205,20 +205,152 @@ On the Data side, we begin our discussion about Tables: the most common form in 
 -----
 
 
-## 8. Programming Basics for data analysis (part 2)
+## 8. Programming Basics for Data Analysis (part 2)
 
 - :card_index: __Dates__: Oct 15-19
 - :paperclip: __Topics__: In addition to writing functions to reduce duplication in your code, you also need to learn about iteration, which helps you when you need to do the same operation several times. Namely, we review control flow structures such as `for` loops, `while` loops, `repeat` loops, and the `apply` family functions.
 - :file_folder: __Notes__:
-    + [Introduction to loops](../tutorials/12-intro-to-loops.md) (tutorial)
-    + [More about functions](../tutorials/13-more-functions.md) (tutorial)
+    + [Introduction to loops](../tutorials/11-intro-to-loops.md) (tutorial)
+    + [More about functions](../tutorials/12-more-functions.md) (tutorial)
     + [Functions](http://adv-r.had.co.nz/Functions.html) (_Advanced R_ by H. Wickham)
 - :microscope: __Lab__: 
-    + [Getting started with loops](../labs/lab08-simple-loops.md)
+    + [Getting started with loops](../labs/lab08-simple-loops.md) (due Oct-20)
 - :newspaper: __Misc__:
     + [chapter 21: Iteration](http://r4ds.had.co.nz/iteration.html) (_R for Data Science_ by Grolemund and Wickham)
 - :dart: __WARM-UP 6__:
     + [Pipelines and Programming Basics](../hws/warmup06-programming-basics.pdf) (due Oct-23)
+
+
+-----
+
+
+## 9. Manipulating Character Strings and Testing Functions
+
+- :card_index: __Dates__: Oct 22-26
+- :paperclip: __Topics__: At its heart, computing involves working with numbers. However, a considerable amount of information and data is in the form of text. Therefore, you also need to learn about character strings, and how to perform basic manipulation of strings. In parallel, we'll keep working on writing funtions, especially focusing on testing functions.
+- :file_folder: __Notes__:
+    + [Environments](http://adv-r.had.co.nz/Environments.html) (_Advanced R_ by H. Wickham)
+    + [Intro to testing functions](../tutorials/14-testing-functions.md) (tutorial)
+    + [Character strings in R](http://www.gastonsanchez.com/r4strings/chars.html) (_r4strings_ by Sanchez)
+    + [Basic string manipulations](http://www.gastonsanchez.com/r4strings/manip.html) (_r4strings_ by Sanchez)
+- :book: __Reading__:
+    + [testthat: Get started with testing](../papers/testthat-wickham.pdf) (by Wickham)
+- :microscope: __Lab__: 
+    + [Getting started with strings](../labs/lab09-tests-strings-basics.md) (due Oct-27)
+- :newspaper: __Misc__:
+    + [chapter 14: Strings](http://r4ds.had.co.nz/strings.html) (_R for Data Science_ by Grolemund and Wickham)
+- :bulb: __Cheat sheet__:
+    + [Stringr cheat sheet](../cheatsheets/stringr-cheatsheet.pdf)
+- :dart: __WARM-UP 7__:
+    + [Pipelines and Programming Basics](../hws/warmup06-programming-basics.pdf) (due Oct-30)
+
+
+-----
+
+
+## 10. Regular Expressions
+
+- :card_index: __Dates__: Oct 29 - Nov 01
+- :paperclip:  __Topics__: To unleash the power of strings manipulation, we need to take things to the next level and learn about Regular Expressions. Namely, Regular expressions are a tool that allows us to describe a certain amount of text called "patterns". We'll describe the basic concepts of regex and the common operations to match text patterns.
+- :file_folder: __Notes__:
+    + [Regexpal](http://regexpal.com.s3-website-us-east-1.amazonaws.com/) tester tool.
+    + [Introduction to regular expressions](../tutorials/15-intro-to-regex.md)
+- :book: __Reading__:
+    + [Handling Strings in R](http://www.gastonsanchez.com/r4strings) (by Sanchez)
+- :microscope: __Lab__:
+    + [Regular Expressions](../labs/lab10-regex-basics.md)
+- :bulb: __Cheat sheet__:
+    + [Regular Expressions cheat sheet](../cheatsheets/regular-expressions-cheatsheet.pdf)
+- :dart: __WORK-OUT 2__:
+    + [Strings and Regular Expressions](../hws/hw04-strings-regex.pdf) (due Nov-05)
+
+
+-----
+
+
+## 11. Random Numbers, Simulations, and Shiny Apps
+
+- :card_index: __Dates__: Nov 05-09
+- :paperclip: __Topics__: Random numbers have many applications in science and computer programming, especially when there are significant uncertainties in a phenomenon of interest. In this part of the course we'll look at some basic problems involving working with random numbers and creating simulations.
+
+In order to better visualize the results of some simulations, we will briefly discuss Shiny apps. This type of apps are a nice companion to R, making it quick and simple to deliver interactive analysis and graphics on any web browser. We'll review how to create simple shiny apps to display data summaries, queries, and interactive displays.
+- :file_folder: __Notes__:
+    + [Introduction to random numbers](../tutorials/16-intro-to-random-numbers.md)
+    + [Coin toss shiny app](../apps/coin-toss)
+    + [shiny tutorial](../slides/shiny-tutorial.pdf) (by Grolemund)
+- :book: __Reading__:
+    + [Part 1 - How to build a Shiny app](https://vimeo.com/rstudioinc/review/131218530/212d8a5a7a/#t=0m0s) (video)
+- :microscope: __Lab__:
+    + [Random numbers and simulations](../labs/lab11-random-simulations.md) (due Nov-10)
+- :newspaper: __Misc__:
+    + [Part 2 - How to customize reactions](https://vimeo.com/rstudioinc/review/131218530/212d8a5a7a/#t=42m2s) (video)
+    + [Part 3 - How to customize appearance](https://vimeo.com/rstudioinc/review/131218530/212d8a5a7a/#t=1h32m41s) (video)
+- :bulb: __Cheat sheet__:
+    + [shiny cheat sheet](../cheatsheets/shiny-cheatsheet.pdf)
+- :dart: __WARM-UP 8__:
+    + [Strings and Regular Expressions](../hws/hw04-strings-regex.pdf) (due Nov-13)
+
+
+-----
+
+
+## 12. R packaging (part 1)
+
+- :card_index: __Dates__: Nov 12-16
+- :paperclip: __Topics__: Packages are the fundamental units of reproducible R code. They include reusable functions, the documentation that describes how to use them, and sample data. In this part we'll start describing how to turn your code into an R package.
+- :file_folder: __Notes__:
+    + [Programming S3 Classes](../tutorials/17-programming-s3classes.pdf)
+    + [Pack YouR Code](http://www.gastonsanchez.com/packyourcode) (by Sanchez)
+- :book: __Reading__:
+    + [Package Structure](http://r-pkgs.had.co.nz/package.html) (R packages by Wickham)
+    + See package components: [http://r-pkgs.had.co.nz/](http://r-pkgs.had.co.nz/) (R packages by Wickham)
+- :microscope: __Lab__:
+    + [HTML and Web scraping](../labs/lab12-web-scraping.md) (due Nov-17)
+- :bulb: __Cheat sheet__:
+    + [Package Development cheat sheet](../cheatsheets/packages-cheatsheet.pdf)
+- :dart: __WORK-OUT__: due Nov-30
+    + R package
+
+
+-----
+
+
+## 13. Thanksgiving Week
+
+- :card_index: __Dates__: Nov 19-23 _(Holiday Nov 21-23)_
+- :paperclip: __Topics__: More about creating an R package
+- :file_folder: __Notes__:
+    + Discussion on the R packging process (chalk and talk).
+
+
+-----
+
+
+## 14. R Packaging (part 2)
+
+- :card_index: __Dates__: Nov 26-30
+- :paperclip: __Topics__: Creating an R package can seem overwhelming at first. So we'll keep working on the creation of a relatively basic package. This will give you the opportunity to apply most of the concepts seen in the course.
+- :file_folder: __Notes__:
+    + [Pack YouR Code](http://www.gastonsanchez.com/packyourcode) (by Sanchez)
+- :book: __Reading__:
+    + See package components: [http://r-pkgs.had.co.nz](http://r-pkgs.had.co.nz/) (R packages by Wickham)
+- :microscope: __Lab__:
+    + TBA
+- :bulb: __Cheat sheet__:
+    + [Package Development cheat sheet](../cheatsheets/packages-cheatsheet.pdf)
+
+
+-----
+
+
+## 15. RRR Week and Final Exam
+
+- :card_index: __Dates__: Dec 03-07
+- :paperclip: __Topics__: Prepare for final examination
+- :file_folder: __Notes__:
+    + No lecture. Instructor will hold OH (in 309 Evans)
+- :mortar_board: __FINAL__: Mon Dec-10, 7-10pm (room TBD)
+    + See announcement about the final test on bCourses
 
 
 -----
