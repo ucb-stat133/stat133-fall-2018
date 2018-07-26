@@ -42,11 +42,12 @@ for participation.
 - Weekly labs are a required part of the course and they are meant to supplement lecture.
 - You must attend the discussion group you are officially registered in.
 - Do not take the class if you cannot attend the discussion you are registered in.
+- Lab assignments will be released every week, and their solutions will be posted on bCourses after submission deadlines.
 - You will be encouraged to problem solve individually or in groups.
 - Each person must submit each lab independently to bCourses, but you are welcome to collaborate with other students in your lab room.
 - To receive credit, you must attend lab, work on the lab assignment until you're finished or the lab period is over, and get checked off by a course staff member.
 - If you finish the lab early, we encourage you to help others with their lab.
-- The first two labs (lab01 and lab02) won't be part of your final grade.
+- Due to the ever present logistical issues at the beginning of every semester, you will have till Sep-15 to submit the first three labs to __bCourses__.
 - Your lab score will be computed based on both: 1) lab attendance, and 2) submission of completed lab assignments to bCourses.
 
 
@@ -73,7 +74,7 @@ progress with the course.
 - Roughly speaking, a warm-up assignment is a relatively simple piece of work.
 - They should allow you to acquire the basic skills that you will later apply on the so-called 
 _work-out_ assignments.
-- Due to the ever present logistical issues at the beginning of every semester, you will have till the Sep-18 to submit the first three warm-ups to __bCourses__.
+- Due to the ever present logistical issues at the beginning of every semester, you will have till Sep-18 to submit the first three warm-ups to __bCourses__.
 - After Sep-18, no late warm-up assignments will be accepted.
 
 
