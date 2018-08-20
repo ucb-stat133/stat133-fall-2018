@@ -13,30 +13,30 @@ __Statistics 133: Concepts in Computing with Data__ at UC Berkeley.
 - __Piazza:__ [piazza.com/berkeley/spring2018/stat133](https://piazza.com/berkeley/spring2018/stat133)
 - __Office Hours:__ You can go to the office hours of __any__ staff member.
 
-| Name           | Room      | Day/Time            |
-|:---------------|:----------|:--------------------|
-| Gaston Sanchez | 309 Evans | MWF 11am-12pm       |
-| TBA            | 342 Evans |   TBD               |
-| TBA            | 342 Evans |   TBD               |
-| TBA            | 342 Evans |   TBD               |
-| TBA            | 342 Evans |   TBD               |
-| TBA            | 342 Evans |   TBD               |
+| Name               | Room      | Day/Time            |
+|:-------------------|:----------|:--------------------|
+| Gaston Sanchez     | 309 Evans | MWF 11am-12pm       |
+| Qi Chen            | TBD Evans |   TBD               |
+| Ninh Do            | TBD Evans |   TBD               |
+| Yannik Pitcan      | TBD Evans |   TBD               |
+| Zishen (Dodo) Qian | TBD Evans |   TBD               |
+| Ziyang Zhou        | TBD Evans |   TBD               |
 
 
 - __Lab Sections:__
 
-| Lab | Date       | Room         | GSI             |
-|-----|------------|--------------|-----------------|
-| 101 | W 10-12pm  | 342 Evans    | TBA             |
-| 102 | W 10-12pm  | 330 Evans    | TBA             |
-| 103 | W 12-2pm   | 342 Evans    | TBA             |
-| 104 | W 12-2pm   | 340 Evans    | TBA             |
-| 105 | W 2-4pm    | 342 Evans    | TBA             |
-| 106 | W 2-4pm    | 330 Evans    | TBA             |
-| 107 | W 4-6pm    | 342 Evans    | TBA             |
-| 108 | W 4-6pm    | 330 Evans    | TBA             |
-| 109 | Th 9-11am  | 342 Evans    | TBA             |
-| 110 | Th 11-1pm  | 342 Evans    | TBA             |
+| Lab | Date       | Room         | GSI                |
+|-----|------------|--------------|--------------------|
+| 101 | W 10-12pm  | 342 Evans    | Ninh Do            |
+| 102 | W 10-12pm  | 330 Evans    | Qi Chen            |
+| 103 | W 12-2pm   | 342 Evans    | Ninh Do            |
+| 104 | W 12-2pm   | 340 Evans    | Yannik Pitcan      |
+| 105 | W 2-4pm    | 342 Evans    | Yannik Pitcan      |
+| 106 | W 2-4pm    | 330 Evans    | Qi Chen            |
+| 107 | W 4-6pm    | 342 Evans    | Zishen (Dodo) Qian |
+| 108 | W 4-6pm    | 330 Evans    | Ziyang Zhou        |
+| 109 | Th 9-11am  | 342 Evans    | Ziyang Zhou        |
+| 110 | Th 11-1pm  | 342 Evans    | Zishen (Dodo) Qian |
 
 
 -----
