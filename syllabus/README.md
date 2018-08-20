@@ -14,7 +14,7 @@
 ## 0. Course Introduction
 
 - :card_index: __Dates__: Aug 22-24
-- :paperclip: __Topics__: Welcome to Stat 133. We begin with the usual review of the course policies/logistics, expectations, topics in a nutshell, etc. Then, we move on with an unconventional introduction to _computing with data_ using one of my favorite metaphores "Data Analysis is a lot like Cooking".
+- :paperclip: __Topics__: Welcome to Stat 133. We begin with the usual review of the course policies/logistics, expectations, topics in a nutshell, etc. Then, we move on with an unconventional introduction to _computing with data_ using my favorite analogy "Data Analysis is a lot like Cooking".
 - :file_folder: __Notes__:
     + [Welcome to Stat 133](../slides/00-welcome.pdf) (slides)
     + [Data Analysis is a lot like cooking](../slides/01-dac-cooking.pdf) (slides)
@@ -140,7 +140,7 @@ On the Data side, we begin our discussion about Tables: the most common form in 
 ## 5. Transforming and Visualizing Tabular Data
 
 - :card_index: __Dates__: Sep 24-28
-- :paperclip: __Topics__: Because data tables are so uniquituos, it's important that you learn how to manipulate them via R data frames in a more modern and syntactic way. How? By following the _data plying_ framework provided by the package `"dplyr"`. Likewise, we begin reviewing the visualization paradigm of `"ggplot2"` which is based on data frames.
+- :paperclip: __Topics__: Because data tables are so ubiquituos, it's important that you learn how to manipulate them via R data frames in a more modern and syntactic way. How? By following the _data plying_ framework provided by the package `"dplyr"`. Likewise, we begin reviewing the visualization paradigm of `"ggplot2"` which is based on data frames.
 - :file_folder: __Notes__:
     + ["dplyr" tutorial slides](../slides/17-dplyr-tutorial.pdf) (by Hadley Wickham)
     + [Grammar of Graphics framework](../slides/18-grammar-graphics.pdf) (slides)
@@ -271,9 +271,7 @@ On the Data side, we begin our discussion about Tables: the most common form in 
 ## 11. Random Numbers, Simulations, and Shiny Apps
 
 - :card_index: __Dates__: Nov 05-09
-- :paperclip: __Topics__: Random numbers have many applications in science and computer programming, especially when there are significant uncertainties in a phenomenon of interest. In this part of the course we'll look at some basic problems involving working with random numbers and creating simulations.
-
-In order to better visualize the results of some simulations, we will briefly discuss Shiny apps. This type of apps are a nice companion to R, making it quick and simple to deliver interactive analysis and graphics on any web browser. We'll review how to create simple shiny apps to display data summaries, queries, and interactive displays.
+- :paperclip: __Topics__: Random numbers have many applications in science and computer programming, especially when there are significant uncertainties in a phenomenon of interest. In this part of the course we'll look at some basic problems involving working with random numbers and creating simulations. Jointly, we will briefly discuss Shiny apps to better visualize the results of some simulations. This type of apps are a nice companion to R, making it quick and simple to deliver interactive analysis and graphics on any web browser.
 - :file_folder: __Notes__:
     + [Introduction to random numbers](../tutorials/16-intro-to-random-numbers.md)
     + [Coin toss shiny app](../apps/coin-toss)
