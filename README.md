@@ -30,7 +30,7 @@ __Statistics 133: Concepts in Computing with Data__ at UC Berkeley.
 | 101 | W 10-12pm  | 342 Evans    | Ninh Do            |
 | 102 | W 10-12pm  | 330 Evans    | Qi Chen            |
 | 103 | W 12-2pm   | 342 Evans    | Ninh Do            |
-| 104 | W 12-2pm   | 340 Evans    | Yannik Pitcan      |
+| 104 | W 12-2pm   | 330 Evans    | Yannik Pitcan      |
 | 105 | W 2-4pm    | 342 Evans    | Yannik Pitcan      |
 | 106 | W 2-4pm    | 330 Evans    | Qi Chen            |
 | 107 | W 4-6pm    | 342 Evans    | Zishen (Dodo) Qian |
