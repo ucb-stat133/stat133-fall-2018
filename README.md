@@ -13,14 +13,14 @@ __Statistics 133: Concepts in Computing with Data__ at UC Berkeley.
 - __Piazza:__ [piazza.com/berkeley/fall2018/stat133](https://piazza.com/berkeley/fall2018/stat133)
 - __Office Hours:__ You can go to the office hours of __any__ staff member.
 
-| Name               | Room      | Day/Time            |
-|:-------------------|:----------|:--------------------|
-| Gaston Sanchez     | 309 Evans | MWF 11am-12pm       |
-| Qi Chen            | TBD Evans |   TBD               |
-| Ninh Do            | TBD Evans |   TBD               |
-| Yannik Pitcan      | TBD Evans |   TBD               |
-| Zishen (Dodo) Qian | TBD Evans |   TBD               |
-| Ziyang Zhou        | TBD Evans |   TBD               |
+| Name               | Room      | Day/Time              |
+|:-------------------|:----------|:----------------------|
+| Gaston Sanchez     | 309 Evans | MWF 11am-12pm         |
+| Qi Chen            | TBD Evans | Th 8-9am              |
+| Ninh Do            | TBD Evans | Tu 9-11am, WF 9-10am  |
+| Yannik Pitcan      | TBD Evans | Tu 10-12, 3:30-5:30pm |
+| Zishen (Dodo) Qian | TBD Evans | M 3-5pm, Tu 9-11      |
+| Ziyang (Sean) Zhou | TBD Evans | M 9-10am, 5-6pm, Tu 4-6pm |
 
 
 - __Lab Sections:__
