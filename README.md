@@ -16,11 +16,11 @@ __Statistics 133: Concepts in Computing with Data__ at UC Berkeley.
 | Name               | Room      | Day/Time              |
 |:-------------------|:----------|:----------------------|
 | Gaston Sanchez     | 309 Evans | MWF 11am-12pm         |
-| Qi Chen            | TBD Evans | Th 8-9am              |
-| Ninh Do            | TBD Evans | Tu 9-11am, WF 9-10am  |
-| Yannik Pitcan      | TBD Evans | Tu 10-12, 3:30-5:30pm |
-| Zishen (Dodo) Qian | TBD Evans | M 3-5pm, Tu 9-11      |
-| Ziyang (Sean) Zhou | TBD Evans | M 9-10am, 5-6pm, Tu 4-6pm |
+| Qi Chen            | 342 Evans | Th 8-9am              |
+| Ninh Do            | 342 Evans | Tu 9-11am, WF 9-10am  |
+| Yannik Pitcan      | 342 Evans | M 10-12, 3:30-5:30pm  |
+| Zishen (Dodo) Qian | 342 Evans | M 3-5pm, Tu 9-11      |
+| Ziyang (Sean) Zhou | 342 Evans | M 9-10am, 5-6pm, Tu 4-6pm |
 
 
 - __Lab Sections:__
@@ -34,8 +34,8 @@ __Statistics 133: Concepts in Computing with Data__ at UC Berkeley.
 | 105 | W 2-4pm    | 342 Evans    | Yannik Pitcan      |
 | 106 | W 2-4pm    | 330 Evans    | Qi Chen            |
 | 107 | W 4-6pm    | 342 Evans    | Zishen (Dodo) Qian |
-| 108 | W 4-6pm    | 330 Evans    | Ziyang Zhou        |
-| 109 | Th 9-11am  | 342 Evans    | Ziyang Zhou        |
+| 108 | W 4-6pm    | 330 Evans    | Ziyang (Sean) Zhou |
+| 109 | Th 9-11am  | 342 Evans    | Ziyang (Sean) Zhou |
 | 110 | Th 11-1pm  | 342 Evans    | Zishen (Dodo) Qian |
 
 
