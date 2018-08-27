@@ -16,7 +16,7 @@ __Statistics 133: Concepts in Computing with Data__ at UC Berkeley.
 | Name               | Room      | Day/Time              |
 |:-------------------|:----------|:----------------------|
 | Gaston Sanchez     | 309 Evans | MWF 11am-12pm         |
-| Qi Chen            | 342 Evans | Th 8-9am              |
+| Qi Chen            | 342 Evans | M 4-6pm, Tu 8-9am, Th 8-9am |
 | Ninh Do            | 342 Evans | Tu 9-11am, WF 9-10am  |
 | Yannik Pitcan      | 342 Evans | M 10-12, 3:30-5:30pm  |
 | Zishen (Dodo) Qian | 342 Evans | M 3-5pm, Tu 9-11      |
