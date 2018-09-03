@@ -140,7 +140,7 @@ On the Data side, we begin our discussion about Tables: the most common form in 
 ## 5. Transforming and Visualizing Tabular Data
 
 - :card_index: __Dates__: Sep 24-28
-- :paperclip: __Topics__: Because data tables are so ubiquituos, it's important that you learn how to manipulate them via R data frames in a more modern and syntactic way. How? By following the _data plying_ framework provided by the package `"dplyr"`. Likewise, we begin reviewing the visualization paradigm of `"ggplot2"` which is based on data frames.
+- :paperclip: __Topics__: Because data tables are so ubiquitous, it's important that you learn how to manipulate them via R data frames in a more modern and syntactic way. How? By following the _data plying_ framework provided by the package `"dplyr"`. Likewise, we begin reviewing the visualization paradigm of `"ggplot2"` which is based on data frames.
 - :file_folder: __Notes__:
     + ["dplyr" tutorial slides](../slides/17-dplyr-tutorial.pdf) (by Hadley Wickham)
     + [Grammar of Graphics framework](../slides/18-grammar-graphics.pdf) (slides)
