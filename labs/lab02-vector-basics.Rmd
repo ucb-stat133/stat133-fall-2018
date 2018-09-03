@@ -14,6 +14,17 @@ urlcolor: blue
 > - Understand the concept of _vectorization_
 > - Understand _recycling_ rules in R
 
+
+### General Instructions
+
+- Write your descriptions, explanations, and code in an `Rmd` (R markdown) file.
+- Name this file as `lab02-first-last.Rmd`, where `first` and `last` are your
+first and last names (e.g. `lab02-gaston-sanchez.Rmd`).
+- Knit your `Rmd` file as an html document (default option).
+- Submit your `Rmd` and `html` files to bCourses, in the corresponding lab assignment.
+- Due date displayed in the syllabus (see github repo).
+
+
 ------
 
 ## Getting the Data File
@@ -59,12 +70,12 @@ download.file(url = rdata, destfile = 'nba2018-salary-points.RData')
 
 The function `download.file()` allows you to download any type of file from 
 the Web. In this case you are downloading the file called 
-`nba2017-salary-points.RData` 
+`nba2018-salary-points.RData` 
 which is located in the github repository of the course. This file is a binary 
 file. To be more precise, the file extension `.RData` is the default extension 
 used by R for its binary native format.
 
-Where does the file get downloaded? Bby default, the file `nba2017-salary-points.RData` 
+Where does the file get downloaded? By default, the file `nba2018-salary-points.RData` 
 gets downloaded to your __working directory__. If you are curious about what 
 is the current 
 directory to which R is paying attention to, simply type the function 
@@ -94,7 +105,7 @@ load('nba2018-salary-points.RData')
 
 Note: the code above will only work as long as your `Rmd` file lives in the 
 same directory of the `.RData` file. So far I'm assuming that you have both 
-files in the working directory. If you run into problems, ask the GSI or any
+files in your working directory. If you run into problems, ask the GSI or any
 of the lab assistants.
 
 ```{r echo = FALSE}
@@ -146,14 +157,14 @@ allow you to examine objects:
 - `tail()` take a peek at the last elements
 - `summary()` shows a summary of a given object
 
-__Your turn:__ 
+
+### Your turn
 
 - Use `length()`, `head()`, `tail()`, and `summary()` to start 
-exploring the content of the loaded objects.
-- Do all the objects have the same length?
+exploring the content of three of the loaded objects (choose any 3).
+- Do all the chosen objects have the same length?
 - Are there missing values, i.e. `NA`, in any of the objects?
-- Find out what is the class of each of the objects `player`, 
-`team`, etc. 
+- Find out what is the class of each of the chosen objects. 
 - How do you know if any of the loaded objects is a vector?
 - How do you know that a given vector is of a certain data type?
 
@@ -161,7 +172,7 @@ exploring the content of the loaded objects.
 
 ## Manipulating Vectors: Subsetting
 
-Create a vector `four` by selecting the first four elements in `player`:
+__Your turn again.__ Create a vector `four` by selecting the first four elements in `player`:
 
 ```r
 four <- head(player, n = 4)
@@ -191,8 +202,7 @@ Figure out how to use `seq()`, `rep()` to extract:
 - all the even elements in `team` but this time in reverse order
 
 
-Use logical subsetting occurs when the vector of indices that you pass inside the 
-brackets is a logical vector.
+### Logical Subsetting
 
 Another kind of subsetting/subscripting is the so-called __logical subsetting__. 
 This type of subsetting implies using a logical vector inside the brackets:
@@ -328,8 +338,8 @@ names(player)
 
 - Create a vector `warriors_player` by selecting the players of `team == 'GSW'`
 - then create a vector `warriors_salary` with their salaries, and another
-vector `warriors_points` with their `scored`. 
-- Assign `warriors_player` as the names of `warriors_salary`.
+vector `warriors_points` with their `scored` points. 
+- Use `names()` to assign `warriors_player` as the names of `warriors_salary`.
 
 You should have a vector `warriors_salary` with named elements. 
 Now you can use character subsetting:
@@ -352,6 +362,29 @@ plot(scored, salary)
 Keep in mind that `plot()` is a generic function. This means that the behavior
 of `plot()` depends on the type of input. When you pass two numeric vectors,
 `plot()` will attempt to create a scatter plot.
+
+
+### Plots with `"plotly"`
+
+The function `plot()` produces static plots. But you can also try to get interactive plots. One option to do this is via the R package `"plotly"`. To use this package, you will have to install `"ggplot2"` and `"plotly"`. Remember to use the `install.packages()` function but do NOT include it in your Rmd:
+
+```r
+install.packages(c("ggplot2", "plotly"))
+```
+
+What you DO need to include is the `library()` function to load `"plotly`":
+
+```{r}
+library(plotly)
+```
+
+The main function to graph data with `"plotly"` is the `plot_ly()` function. When your data is in vectors, you can graph a scatterplot like this:
+
+```{r eval = FALSE}
+plot_ly(x = scored, y = salary, type = "scatter", mode = "markers")
+```
+
+By the way, the output of `plot_ly()` will only work when you knit an html file. If you try to knit using a different format, then `plot_ly()` won't work.
 
 Looking at the generated plot, can you see any issues?
 
