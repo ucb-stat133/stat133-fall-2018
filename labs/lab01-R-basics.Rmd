@@ -15,6 +15,19 @@ urlcolor: blue
 > - Difference between .R and .Rmd files
 > - Get to know markdown syntax
 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### General Instructions
+
+- Write your descriptions, explanations, and code in an `Rmd` (R markdown) file.
+- Name this file as `lab01-first-last.Rmd`, where `first` and `last` are your
+first and last names (e.g. `lab01-gaston-sanchez.Rmd`).
+- Knit your `Rmd` file as an html document (default option).
+- Submit your `Rmd` and `html` files to bCourses, in the corresponding lab assignment.
+- Due date displayed in the syllabus (see github repo).
+
 ------
 
 ## R and RStudio
