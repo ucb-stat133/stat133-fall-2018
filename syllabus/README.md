@@ -102,7 +102,7 @@
 - :bulb: __Cheat sheet__:
     + [command line cheat sheet](../cheatsheets/command-line-cheatsheet.pdf)
 - :dart: __WARM-UP 3__:
-    + [Data Frame Basics](../hws/warmup03-data-frame-basics.pdf) (due Sep-18)
+    + [Data Frame Basics](../hws/warmup03-data-basics.pdf) (due Sep-18)
 
 
 -----
