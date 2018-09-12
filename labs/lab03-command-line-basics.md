@@ -89,8 +89,13 @@ curl -O http://textfiles.com/food/bread.txt
     extension `.txt`
   - Use the wildcard `*` to move list all the files with extension
     `.csv` in reverse order
-  - Find out how to use the wilcard `?` to list `.csv` files with names
-    made of 4 characters (e.g. `mid1.csv`, `snow.csv`)
+  - You can use the character `?` to represent a single character: e.g.
+    `ls mid?.csv`. Find out how to use the wilcard `?` to list `.csv`
+    files with names made of 4 characters (e.g. `mid1.csv`, `snow.csv`)
+  - The command `ls *[1]*.csv` should list `.csv` files with names
+    containing the number 1 (e.g. `mid1.csv`, `minutes1.csv`). Adapt the
+    command to list `.csv` files with names containing the number 2.
+  - Find out how to list files with names containing any number.
   - Inside `stat133-lab03` create a directory `data`
   - Change directory to `data`
   - Create a directory `txt-files`
