@@ -131,7 +131,7 @@ On the Data side, we begin our discussion about Tables: the most common form in 
     + [Data import cheat sheet](../cheatsheets/data-import-cheatsheet.pdf)
     + [git cheat sheet](../cheatsheets/git-cheatsheet.pdf)
 - :dart: __WARM-UP 4__:
-    + [Data Frame Basics](../hws/warmup04-importing-tables.pdf) (due Sep-25)
+    + [Data Frame Basics](../hws/warmup04-exploring-nba.pdf) (due Sep-25)
 
 
 -----
