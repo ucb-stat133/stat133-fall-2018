@@ -88,7 +88,7 @@ _work-out_ assignments.
     + 0: no submission
     + 2: very poor (e.g. got started but most solutions are wrong)
     + 5: half-way there (e.g. about 50% of problems solved correclty)
-    + 8: Mostly right but a minor missing or wrong.
+    + 8: Mostly right but a minor thing missing or wrong.
     + 10: full credit, 100% correct
 
 
