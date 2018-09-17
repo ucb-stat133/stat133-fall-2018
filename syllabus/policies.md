@@ -43,13 +43,21 @@ for participation.
 - You must attend the discussion group you are officially registered in.
 - Do not take the class if you cannot attend the discussion you are registered in.
 - Lab assignments will be released every week, and their solutions will be posted on bCourses after submission deadlines.
+- Due to the ever-present logistical issues at the beginning of every semester, we will keep a grace submission period for lasb 1 and 2 till Sep-15.
 - You will be encouraged to problem solve individually or in groups.
 - Each person must submit each lab independently to bCourses, but you are welcome to collaborate with other students in your lab room.
 - To receive credit, you must attend lab, work on the lab assignment until you're finished or the lab period is over, and get checked off by a course staff member.
 - If you finish the lab early, we encourage you to help others with their lab.
 - Due to the ever present logistical issues at the beginning of every semester, you will have till Sep-15 to submit the first three labs to __bCourses__.
 - Your lab score will be computed based on both: 1) lab attendance, and 2) submission of completed lab assignments to bCourses.
-
+- If a student does not attend lab but submits early:
+    + Early complete submission without attending lab: 10 pts (full credit)
+    + Early incomplete submission without attending lab: default deduction of 4 pts (for not attending), and then deduction of points depending on the proportion of incompleted work.
+- If a student attends lab:
+    + Full attendance (4 pts) and complete submission (6 pts): 10 pts (full credit)
+    + Partial attendance (2 pts) and complete submission (6 pts): 8 pts
+    + Full attendance (4 pts) and incomplete submission (? out 6 pts): points deducted depending on the proportion of incompleted work.
+- You run the risk of losing attendance points if you have an early incomplete submission. In other words, we strongly encourage you to attend lab.
 
 
 ### Homework
@@ -76,6 +84,12 @@ progress with the course.
 _work-out_ assignments.
 - Due to the ever present logistical issues at the beginning of every semester, you will have till Sep-18 to submit the first three warm-ups to __bCourses__.
 - After Sep-18, no late warm-up assignments will be accepted.
+- Warmup assignments will be graded on correctness, using a coarse scale:
+    + 0: no submission
+    + 2: very poor (e.g. got started but most solutions are wrong)
+    + 5: half-way there (e.g. about 50% of problems solved correclty)
+    + 8: Mostly right but a minor missing or wrong.
+    + 10: full credit, 100% correct
 
 
 
