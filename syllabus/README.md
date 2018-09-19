@@ -114,8 +114,8 @@
 - :paperclip: __Topics__: We continue talking about filestructure topics, and we introduce basic notions of version control systems (VCS) using Git, and the companion hosting platform GitHub.
 On the Data side, we begin our discussion about Tables: the most common form in which data is stored, handled, and manipulated. Consequently, we need to talk about the typical storage formats of tabular data, and the relationship between tables and R data frames.
 - :file_folder: __Notes__:
-    + [Git Basics](../slides/12-git-basics.pdf) (slides)
-    + [Git Workflow](../slides/13-git-workflow.pdf) (slides)
+    + [Git Basics](../slides/12-git-basics1.pdf) (slides)
+    + [Git Workflow](../slides/13-git-basics2.pdf) (slides)
     + [Data Tables](../slides/14-data-tables.pdf) (slides)
     + [Importing Tables in R](../slides/15-importing-tables.pdf) (slides)
 - :book: __Reading__:
