@@ -122,8 +122,8 @@ On the Data side, we begin our discussion about Tables: the most common form in 
     + Read sections 4 to 9 in Part I [Installation](http://happygitwithr.com/installation-pain.html) (_Happy Git and GitHub for the useR_ by Jenny Bryan et al.)
     + [Basic manipulation of Data Frames](../slides/14-data-frame-basics.pdf) (slides)
 - :microscope: __Lab__:
-    + Work on episodes 2 to 7 of the tutorial [Version Control with Git](http://swcarpentry.github.io/git-novice/) (by Software Carpentry)
-    + [Getting started with data frames](../labs/lab04-data-frame-basics.md) (due Sep-22)
+    + [Git Basics](../labs/lab04-git-basics.md) (due Sep-22)
+    + [Get your Github Classroom repo](../labs/lab04-github-classroom.pdf)
 - :newspaper: __Misc__:
     + [Data Import](http://r4ds.had.co.nz/data-import.html) (_R for Data Science_ by Grolemund and Wickham)
     + [Organizing data in spreadsheets](http://kbroman.org/dataorg/) (by Karl Broman)
