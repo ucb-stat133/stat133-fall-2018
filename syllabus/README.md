@@ -147,7 +147,6 @@ On the Data side, we begin our discussion about Tables: the most common form in 
 - :book: __Reading__:
     + ["ggplot2" lecture](../slides/19-ggplot-lecture.pdf) (by Karthik Ram)
 - :microscope: __Lab__:
-    + [GitHub Classroom](../labs/lab03-github-classroom.pdf)
     + [Getting started with dplyr and ggplot2](../labs/lab05-dplyr-ggplot-basics.md) (due Sep-29)
 - :newspaper: __Misc__:
     + [tibbles vignette](https://cran.r-project.org/web/packages/tibble/vignettes/tibble.html)
