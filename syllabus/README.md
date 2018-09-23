@@ -147,7 +147,7 @@ On the Data side, we begin our discussion about Tables: the most common form in 
     + [Datavis: The Visual System](../slides/19-data-vis3.pdf) (slides)
 - :book: __Reading__:
     + ["dplyr" tutorial slides](../slides/16-dplyr-tutorial.pdf) (by Hadley Wickham)
-    + ["ggplot2" lecture](../slides/19-ggplot-lecture.pdf) (by Karthik Ram)
+    + ["ggplot2" lecture](../slides/22-ggplot-lecture.pdf) (by Karthik Ram)
 - :microscope: __Lab__:
     + [Getting started with dplyr and ggplot2](../labs/lab05-dplyr-ggplot-basics.md) (due Sep-29)
 - :newspaper: __Misc__:
