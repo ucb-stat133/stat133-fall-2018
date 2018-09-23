@@ -140,11 +140,13 @@ On the Data side, we begin our discussion about Tables: the most common form in 
 ## 5. Transforming and Visualizing Tabular Data
 
 - :card_index: __Dates__: Sep 24-28
-- :paperclip: __Topics__: Because data tables are so ubiquitous, it's important that you learn how to manipulate them via R data frames in a more modern and syntactic way. How? By following the _data plying_ framework provided by the package `"dplyr"`. Likewise, we begin reviewing the visualization paradigm of `"ggplot2"` which is based on data frames.
+- :paperclip: __Topics__: Because data tables are so ubiquitous, it's important that you learn how to manipulate them via R data frames in a more modern and syntactic way. How? By following the _data plying_ framework provided by the package `"dplyr"`. Likewise, we begin a comprehensive discussion on concepts for data visualization.
 - :file_folder: __Notes__:
-    + ["dplyr" tutorial slides](../slides/17-dplyr-tutorial.pdf) (by Hadley Wickham)
-    + [Grammar of Graphics framework](../slides/18-grammar-graphics.pdf) (slides)
+    + [Datavis: Introduction](../slides/17-data-vis1.pdf) (slides)
+    + [Datavis: Encoding Data in Graphs](../slides/18-data-vis2.pdf) (slides)
+    + [Datavis: The Visual System](../slides/19-data-vis3.pdf) (slides)
 - :book: __Reading__:
+    + ["dplyr" tutorial slides](../slides/16-dplyr-tutorial.pdf) (by Hadley Wickham)
     + ["ggplot2" lecture](../slides/19-ggplot-lecture.pdf) (by Karthik Ram)
 - :microscope: __Lab__:
     + [Getting started with dplyr and ggplot2](../labs/lab05-dplyr-ggplot-basics.md) (due Sep-29)
@@ -155,7 +157,7 @@ On the Data side, we begin our discussion about Tables: the most common form in 
     + [Data transformation cheat sheet](../cheatsheets/data-transformation-cheatsheet.pdf)
     + [Data visualization with ggplot2](../cheatsheets/ggplot2-cheatsheet-2.1.pdf)
 - :dart: __WORK-OUT 1__:
-    + [Data Wrangling and visualization](../hws/workout01-shot-charts.pdf) (due Oct-05)
+    + [Data Wrangling and Visualization](../hws/workout1-instructions.pdf) (due Oct-05)
 
 
 -----
@@ -166,14 +168,16 @@ On the Data side, we begin our discussion about Tables: the most common form in 
 - :card_index: __Dates__: Oct 01-05
 - :paperclip: __Topics__: We continue reviewing more aspects of `"dplyr"` and the famous pipe operator. 
 - :file_folder: __Notes__:
+    + [Datavis: Using Color](../slides/20-data-vis4.pdf) (slides)
+    + [Datavis: Effective Charts](../slides/21-data-vis5.pdf) (slides)
+- :book: __Reading__:
     + [Pipes with `"dplyr"`](../tutorials/05-dplyr-pipes.md) (tutorial)
     + [Shell input/output redirection](../tutorials/06-shell-redirections.md) (tutorial)
     + [Shell filters](../tutorials/07-shell-filters.md) (tutorial)
-- :book: __Reading__:
-    + [Pipes](http://r4ds.had.co.nz/pipes.html) (_R for Data Science_ by Grolemund and Wickham)
 - :microscope: __Lab__:
     + [More data wrangling, and exporting outputs](../labs/lab06-more-data-wrangling.md) (due Oct-06)
 - :newspaper: __Misc__:
+    + [Pipes](http://r4ds.had.co.nz/pipes.html) (_R for Data Science_ by Grolemund and Wickham)
     + [Tidy Data](../papers/tidy-data-wickham) (by Hadley Wickham)
 - :bulb: __Cheat sheet__:
     + [Data transformation cheat sheet](../cheatsheets/data-transformation-cheatsheet.pdf)
