@@ -21,7 +21,7 @@ urlcolor: blue
     2. Git and GitHub Practice
     3. Your GitHub Classroom repository
 - We assume that you have installed Git in your computer, and that you created a GitHub account.
-- Write your descriptions, explanations, and code for the frist two parts in an `Rmd` (R markdown) file.
+- Write your descriptions, explanations, and code for the first two parts in an `Rmd` (R markdown) file.
 - Name this file as `lab04-first-last.Rmd`, where `first` and `last` are your
 first and last names (e.g. `lab04-gaston-sanchez.Rmd`).
 - Knit your `Rmd` file as an html document (default option).
