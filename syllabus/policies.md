@@ -84,12 +84,8 @@ progress with the course.
 _work-out_ assignments.
 - Due to the ever present logistical issues at the beginning of every semester, you will have till Sep-18 to submit the first three warm-ups to __bCourses__.
 - After Sep-18, no late warm-up assignments will be accepted.
-- Warmup assignments will be graded on correctness, using a coarse scale:
-    + 0: no submission
-    + 2: very poor (e.g. got started but most solutions are wrong)
-    + 5: half-way there (e.g. about 50% of problems solved correclty)
-    + 8: Mostly right but a minor thing missing or wrong.
-    + 10: full credit, 100% correct
+- Warmup assignments will be graded on correctness by selecting some problems (typically the most challenging parts of the assignment).
+- The applicable grading scheme for each assignment will be announced on bCourses. 
 
 
 
