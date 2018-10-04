@@ -14,13 +14,11 @@ Gaston Sanchez
 
 ### General Instructions
 
-  - Write your descriptions, explanations, and code in an `Rmd` (R
-    markdown) file.
-  - Name this file as `lab06-first-last.Rmd`, where `first` and `last`
-    are your first and last names (e.g. `lab06-gaston-sanchez.Rmd`).
-  - Knit your `Rmd` file as an html document (default option).
-  - Submit your `Rmd` and `html` files to bCourses, in the corresponding
-    lab assignment.
+  - Write your code and comments in an `R` (R script) file.
+  - Name this file as `lab06-first-last.R`, where `first` and `last` are
+    your first and last names (e.g. `lab06-gaston-sanchez.R`).
+  - Submit your `R` file to bCourses, in the corresponding lab
+    assignment.
   - Due date displayed in the syllabus (see github repo).
 
 -----
