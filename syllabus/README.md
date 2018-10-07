@@ -163,25 +163,21 @@ On the Data side, we begin our discussion about Tables: the most common form in 
 -----
 
 
-## 6. More Wrangling, Pipes, and Exporting Outputs
+## 6. More Visualization
 
 - :card_index: __Dates__: Oct 01-05
-- :paperclip: __Topics__: We continue reviewing more aspects of `"dplyr"` and the famous pipe operator. 
+- :paperclip: __Topics__: We continue reviewing more concepts of data visualization. 
 - :file_folder: __Notes__:
     + [Datavis: Using Color](../slides/20-data-vis4.pdf) (slides)
     + [Datavis: Effective Charts](../slides/21-data-vis5.pdf) (slides)
 - :book: __Reading__:
-    + [Pipes with `"dplyr"`](../tutorials/05-dplyr-pipes.md) (tutorial)
-    + [Shell input/output redirection](../tutorials/06-shell-redirections.md) (tutorial)
-    + [Shell filters](../tutorials/07-shell-filters.md) (tutorial)
+    + ["ggplot2" lecture](../slides/22-ggplot-lecture.pdf) (by Karthik Ram)
 - :microscope: __Lab__:
     + [More data wrangling, and exporting outputs](../labs/lab06-more-data-wrangling.md) (due Oct-06)
 - :newspaper: __Misc__:
-    + [Pipes](http://r4ds.had.co.nz/pipes.html) (_R for Data Science_ by Grolemund and Wickham)
     + [Tidy Data](../papers/tidy-data-wickham) (by Hadley Wickham)
 - :bulb: __Cheat sheet__:
     + [Data transformation cheat sheet](../cheatsheets/data-transformation-cheatsheet.pdf)
-    + [Command line cheat sheet](../cheatsheets/command-line-cheatsheet.pdf)
 - :mortar_board: __MIDTERM 1__: Friday Oct-05
 
 
@@ -194,9 +190,9 @@ On the Data side, we begin our discussion about Tables: the most common form in 
 - :card_index: __Dates__: Oct 08-12
 - :paperclip: __Topics__: You don’t need to be an expert programmer to be a data scientist, but learning more about programming allows you to automate common tasks, and solve new problems with greater ease. We'll discuss how to write basic functions, the notion of R expressions, and an introduction to conditionals. 
 - :file_folder: __Notes__:
-    + [Creating functions](../tutorials/08-creating-functions.md) (tutorial)
-    + [Introduction to functions](../tutorials/09-intro-to-functions.md) (tutorial)
-    + [Introduction to R expressions and conditionals](../tutorials/10-intro-to-expressions-conditionals.md) (tutorial)
+    + [Creating functions](../tutorials/06-creating-functions.md) (tutorial)
+    + [Introduction to functions](../tutorials/07-intro-to-functions.md) (tutorial)
+    + [Introduction to R expressions and conditionals](../tutorials/08-intro-to-expressions-conditionals.md) (tutorial)
 - :microscope: __Lab__:
     + [Getting started with functions and conditionals](../labs/lab07-simple-functions.md) (due Oct-13)
 - :newspaper: __Misc__: 
