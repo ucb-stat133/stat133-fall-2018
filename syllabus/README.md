@@ -209,8 +209,8 @@ On the Data side, we begin our discussion about Tables: the most common form in 
 - :card_index: __Dates__: Oct 15-19
 - :paperclip: __Topics__: In addition to writing functions to reduce duplication in your code, you also need to learn about iteration, which helps you when you need to do the same operation several times. Namely, we review control flow structures such as `for` loops, `while` loops, `repeat` loops, and the `apply` family functions.
 - :file_folder: __Notes__:
-    + [Introduction to loops](../tutorials/11-intro-to-loops.md) (tutorial)
-    + [More about functions](../tutorials/12-more-functions.md) (tutorial)
+    + [Introduction to loops](../tutorials/09-intro-to-loops.md) (tutorial)
+    + [More about functions](../tutorials/10-more-functions.md) (tutorial)
     + [Functions](http://adv-r.had.co.nz/Functions.html) (_Advanced R_ by H. Wickham)
 - :microscope: __Lab__: 
     + [Getting started with loops](../labs/lab08-simple-loops.md) (due Oct-20)
