@@ -87,7 +87,7 @@ coffee_prices
     ##       2.50       2.95       3.45       3.25
 
 Without using a loop, you can display, via `cat()`, the prices
-one-by-one; (this, of course, involves a lot of repetation)
+one-by-one; (this, of course, involves a lot of repetition)
 
 ``` r
 cat("Expresso has a price of", coffee_prices[1])
@@ -156,7 +156,7 @@ for (i in 1:5) {
     ## [1] 64
 
 The vector of *times* does NOT have to be a numeric vector; it can be
-any vector
+**any** vector
 
 ``` r
 value <- 2
@@ -172,6 +172,26 @@ for (i in times) {
     ## [1] 8
     ## [1] 16
     ## [1] 32
+
+However, if the *iterator* is used inside the loop in a numerical
+computation, then the vector of *times* will almost always be a numeric
+vector:
+
+``` r
+set.seed(4321)
+numbers <- rnorm(5)
+
+for (h in 1:length(numbers)) {
+  if (values[h] < 0) {
+    value <- sqrt(-numbers[h])
+  } else {
+    value <- sqrt(numbers[h])
+  }
+  print(value)
+}
+```
+
+    ## Error: object 'values' not found
 
 ### For Loops and Next statement
 
@@ -259,10 +279,10 @@ A
 
 ## About `for` Loops and Vectorized Computations
 
-  - R loops have bad reputation for being slow.
+  - R loops have a bad reputation for being slow.
 
-  - Experienced users will tell you: “tend to avoid for loops in R” (me
-    included).
+  - Experienced users will tell you: “tend to avoid `for` loops in R”
+    (me included).
 
   - It is not really that the loops are slow; the slowness has more to
     do with the way R handles the *boxing and unboxing* of data objects,
@@ -274,11 +294,11 @@ A
   - For this course, especially if you have NO programming experience,
     you should ignore any advice about avoiding loops in R.
 
-  - You should learn how to write loops, and how they work; every
-    programming language provides some type of loop structures.
+  - You should learn how to write loops, and understand how they work;
+    every programming language provides some type of loop structure.
 
   - In practice, many (programming) problems can be tackled using some
-    loop.
+    loop structure.
 
   - When using R, you may need to start solving a problem using a loop.
     Once you solved it, try to see if you can find a vectorized
