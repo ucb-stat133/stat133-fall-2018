@@ -217,7 +217,7 @@ On the Data side, we begin our discussion about Tables: the most common form in 
 - :newspaper: __Misc__:
     + [chapter 21: Iteration](http://r4ds.had.co.nz/iteration.html) (_R for Data Science_ by Grolemund and Wickham)
 - :dart: __WARM-UP 6__:
-    + [Pipelines and Programming Basics](../hws/warmup06-programming-basics.pdf) (due Oct-23)
+    + [Pipelines and Programming Basics](../hws/warmup06-loops.pdf) (due Oct-23)
 
 
 -----
