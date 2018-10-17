@@ -212,6 +212,7 @@ On the Data side, we begin our discussion about Tables: the most common form in 
     + [Introduction to loops](../tutorials/09-intro-to-loops.md) (tutorial)
     + [More about functions](../tutorials/10-more-functions.md) (tutorial)
     + [Functions](http://adv-r.had.co.nz/Functions.html) (_Advanced R_ by H. Wickham)
+    + [Environments](http://adv-r.had.co.nz/Environments.html) (_Advanced R_ by H. Wickham)
 - :microscope: __Lab__: 
     + [Getting started with loops](../labs/lab08-simple-loops.md) (due Oct-20)
 - :newspaper: __Misc__:
