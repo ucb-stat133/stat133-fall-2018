@@ -145,7 +145,7 @@ Does the series converge as \(n\) increase?
 
 Write a for loop to compute the following arithmetic series
 \(a_n = a_1 + (n-1)d\) when \(a_1 = 3\), and \(d = 3\). For instance:
-\(3 + 6 + 12 + 24 + \dots\).
+\(3 + 6 + 9 + 12 + 15 + \dots\).
 
 ![arithmetic series](lab08-images/arith_series.png)
 
@@ -211,7 +211,7 @@ A
 
 Say we want to add 1 to all elements in row 1, add 2 to all elements in
 row 2, add 3 to all elements in row 3, and so on. To do this without
-using vectorized coe, you need to work with two nested `for()` loops.
+using vectorized code, you need to work with two nested `for()` loops.
 One loop will control how you traverse the matrix by rows, the other
 loop will control how you traverse the matrix by columns. Here’s how:
 
@@ -253,8 +253,8 @@ X
     ## [4,]  0.07050839 -1.2650612  0.3598138
 
 Write code in R, using loops, to get a matrix `Y` such that the negative
-numbers in `A` are transformed into squared values, while the positive
-numbers in `A` are transformed into square root values
+numbers in `X` are transformed into squared values, while the positive
+numbers in `X` are transformed into square root values
 
 -----
 
