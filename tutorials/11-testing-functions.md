@@ -303,8 +303,8 @@ other words:
 The formal way to implement the tests is to include them in a separate
 `R` script file, e.g. `tests.R`.
 
-The organization the function files and the test files is (usually) up
-to you. The main exception is when you are creating an R package; in
+The organization of the function files and the test files is (usually)
+up to you. The main exception is when you are creating an R package; in
 this case the functions are located in a specific file, while the tests
 are located in a separate specific location.
 
@@ -367,7 +367,7 @@ test_that("standardize handles logical vector", {
 })
 ```
 
-### Runing the tests
+### Running the tests
 
 If your working directory is the `code/` directory, then you could run
 the tests in `tests.R` from the R console using the function
