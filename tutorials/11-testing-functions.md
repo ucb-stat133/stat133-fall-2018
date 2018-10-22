@@ -151,9 +151,9 @@ standardize(alog)
 ## Writing Tests
 
 Instead of writing a list of more or less informal test, we are going to
-use the functions provide by `"testthat"`.
+use the functions provided by `"testthat"`.
 
-To lear about the testing functinos, we’ll consider the following
+To learn about the testing functinos, we’ll consider the following
 testing vectors:
 
   - `x <- c(1, 2, 3)`
@@ -276,7 +276,7 @@ test_that("standardize works with missing values", {
 ```
 
 And last, but not least, the expectations with the logical vector can be
-grouped in a `test_that()` call:
+grouped in a separate `test_that()` call:
 
 ``` r
 test_that("standardize handles logical vector", {
@@ -302,6 +302,11 @@ other words:
 
 The formal way to implement the tests is to include them in a separate
 `R` script file, e.g. `tests.R`.
+
+The organization the function files and the test files is (usually) up
+to you. The main exception is when you are creating an R package; in
+this case the functions are located in a specific file, while the tests
+are located in a separate specific location.
 
 Suppose you are working on a project with some file structure like the
 one below. You could have a `code/` directory containing your functions,
