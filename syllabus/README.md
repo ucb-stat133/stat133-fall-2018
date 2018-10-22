@@ -229,8 +229,7 @@ On the Data side, we begin our discussion about Tables: the most common form in 
 - :card_index: __Dates__: Oct 22-26
 - :paperclip: __Topics__: At its heart, computing involves working with numbers. However, a considerable amount of information and data is in the form of text. Therefore, you also need to learn about character strings, and how to perform basic manipulation of strings. In parallel, we'll keep working on writing funtions, especially focusing on testing functions.
 - :file_folder: __Notes__:
-    + [Environments](http://adv-r.had.co.nz/Environments.html) (_Advanced R_ by H. Wickham)
-    + [Intro to testing functions](../tutorials/14-testing-functions.md) (tutorial)
+    + [Intro to testing functions](../tutorials/11-testing-functions.md) (tutorial)
     + [Character strings in R](http://www.gastonsanchez.com/r4strings/chars.html) (_r4strings_ by Sanchez)
     + [Basic string manipulations](http://www.gastonsanchez.com/r4strings/manip.html) (_r4strings_ by Sanchez)
 - :book: __Reading__:
@@ -241,8 +240,8 @@ On the Data side, we begin our discussion about Tables: the most common form in 
     + [chapter 14: Strings](http://r4ds.had.co.nz/strings.html) (_R for Data Science_ by Grolemund and Wickham)
 - :bulb: __Cheat sheet__:
     + [Stringr cheat sheet](../cheatsheets/stringr-cheatsheet.pdf)
-- :dart: __WARM-UP 7__:
-    + [Pipelines and Programming Basics](../hws/warmup06-programming-basics.pdf) (due Oct-30)
+- :dart: __WORK-OUT 2__:
+    + [Functions, tests, and strings](../hws/workout02-instructions.pdf) (due Nov-05)
 
 
 -----
@@ -262,7 +261,7 @@ On the Data side, we begin our discussion about Tables: the most common form in 
 - :bulb: __Cheat sheet__:
     + [Regular Expressions cheat sheet](../cheatsheets/regular-expressions-cheatsheet.pdf)
 - :dart: __WORK-OUT 2__:
-    + [Strings and Regular Expressions](../hws/hw04-strings-regex.pdf) (due Nov-05)
+    + _Keep working on your workout02 assignment._
 
 
 -----
@@ -285,7 +284,7 @@ On the Data side, we begin our discussion about Tables: the most common form in 
     + [Part 3 - How to customize appearance](https://vimeo.com/rstudioinc/review/131218530/212d8a5a7a/#t=1h32m41s) (video)
 - :bulb: __Cheat sheet__:
     + [shiny cheat sheet](../cheatsheets/shiny-cheatsheet.pdf)
-- :dart: __WARM-UP 8__:
+- :dart: __WARM-UP 7__:
     + [Strings and Regular Expressions](../hws/hw04-strings-regex.pdf) (due Nov-13)
 
 
@@ -318,7 +317,7 @@ On the Data side, we begin our discussion about Tables: the most common form in 
 - :card_index: __Dates__: Nov 19-23 _(Holiday Nov 21-23)_
 - :paperclip: __Topics__: More about creating an R package
 - :file_folder: __Notes__:
-    + Discussion on the R packging process (chalk and talk).
+    + Discussion on the R packaging process (chalk and talk).
 
 
 -----
