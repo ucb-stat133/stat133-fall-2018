@@ -20,7 +20,7 @@ library(stringr)
 
 ## Men's Long Jump World Record Progression
 
-In this tutorial we are going to be working with the Men's Long Jump World Record progression from wikipedia.
+In this tutorial we are going to be working with the Men's Long Jump World Record Progression data from wikipedia.
 
 https://en.wikipedia.org/wiki/Men%27s_long_jump_world_record_progression#Low_altitude_record_progression_1965%E2%80%931991
 
@@ -234,7 +234,7 @@ str_extract(dates, pattern = "[A-Z][a-z][a-z][a-z]")
 
 The previous pattern `"[A-Z][a-z][a-z][a-z]"` not only matches `"June"` and `"July"` but also `"Augu"`, `"Sept"`, `"Octo"`. In addition, we have some missing values.
 
-Because the month names have variable lengths, we can use a repetition or quantifier operator. More specifically, we could look for the pattern "[A-Z][a-z]+", that is: an upper case letter, followed by a lower case letter, repeated one or more times. The plus `+` tells the regex engine to attempt to match the preceding token once or more:
+Because the month names have variable lengths, we can use a repetition or quantifier operator. More specifically, we could look for the pattern `"[A-Z][a-z]+"`, that is: an upper case letter, followed by a lower case letter, repeated one or more times. The plus `+` tells the regex engine to attempt to match the preceding token once or more:
 
 ```{r}
 month_names <- str_extract(dates, pattern = "[A-Z][a-z]+")
@@ -296,7 +296,15 @@ str_extract(dates[1], pattern = "\\d+$")
 str_extract(tbl$Athlete, pattern = "[A-Z][a-z]+")
 ```
 
+The pattern `"[A-Z][a-z]+"` fails to match the name of the fourth athlete `r tbl$Athlete[4]`. One way to match an optional upper case in the third position is with the following pattern: `"[A-Z][a-z][A-Z]?[a-z]+"`: 
 
+```{r}
+# First name
+str_extract(tbl$Athlete, pattern = "[A-Z][a-z][A-Z]?[a-z]+")
+```
+
+An alternative option is to use the _word_ character class `\\w` repeated one or more times: `"\\w+"`
+ 
 ```{r}
 # First name
 str_extract(tbl$Athlete, pattern = "\\w+")

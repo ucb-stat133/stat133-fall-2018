@@ -12,7 +12,7 @@ Gaston Sanchez
 ## Men’s Long Jump World Record Progression
 
 In this tutorial we are going to be working with the Men’s Long Jump
-World Record progression from
+World Record Progression data from
 wikipedia.
 
 <https://en.wikipedia.org/wiki/Men%27s_long_jump_world_record_progression#Low_altitude_record_progression_1965%E2%80%931991>
@@ -320,9 +320,9 @@ some missing values.
 
 Because the month names have variable lengths, we can use a repetition
 or quantifier operator. More specifically, we could look for the pattern
-“\[A-Z\]\[a-z\]+”, that is: an upper case letter, followed by a lower
-case letter, repeated one or more times. The plus `+` tells the regex
-engine to attempt to match the preceding token once or more:
+`"[A-Z][a-z]+"`, that is: an upper case letter, followed by a lower case
+letter, repeated one or more times. The plus `+` tells the regex engine
+to attempt to match the preceding token once or more:
 
 ``` r
 month_names <- str_extract(dates, pattern = "[A-Z][a-z]+")
@@ -420,6 +420,23 @@ str_extract(tbl$Athlete, pattern = "[A-Z][a-z]+")
     ##  [1] "Peter"  "Edward" "Robert" "De"     "Edward" "Sylvio" "Chuhei"
     ##  [8] "Jesse"  "Ralph"  "Ralph"  "Ralph"  "Igor"   "Ralph"  "Ralph" 
     ## [15] "Ralph"  "Igor"   "Bob"    "Mike"
+
+The pattern `"[A-Z][a-z]+"` fails to match the name of the fourth
+athlete DeHart Hubbard (USA). One way to match an optional upper case in
+the third position is with the following pattern:
+`"[A-Z][a-z][A-Z]?[a-z]+"`:
+
+``` r
+# First name
+str_extract(tbl$Athlete, pattern = "[A-Z][a-z][A-Z]?[a-z]+")
+```
+
+    ##  [1] "Peter"  "Edward" "Robert" "DeHart" "Edward" "Sylvio" "Chuhei"
+    ##  [8] "Jesse"  "Ralph"  "Ralph"  "Ralph"  "Igor"   "Ralph"  "Ralph" 
+    ## [15] "Ralph"  "Igor"   "Bob"    "Mike"
+
+An alternative option is to use the *word* character class `\\w`
+repeated one or more times: `"\\w+"`
 
 ``` r
 # First name
