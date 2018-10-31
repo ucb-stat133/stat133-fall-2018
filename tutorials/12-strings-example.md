@@ -449,11 +449,17 @@ str_extract(tbl$Athlete, pattern = "\\w+")
 
 ### First and Last Names
 
+Now let’s try to extract the athletes’ first and last names. We could
+specify a regex pattern for the first name `[A-Z][a-z][A-Z]?[a-z]+`,
+followed by a space, followed by an uper case letter, and one or more
+lower case letters
+    `[A-Z][a-z]+`:
+
 ``` r
-str_extract(tbl$Athlete, pattern = "[A-Z][a-z]+ [A-Z][a-z]+")
+str_extract(tbl$Athlete, pattern = "[A-Z][a-z][A-Z]?[a-z]+ [A-Z][a-z]+")
 ```
 
-    ##  [1] NA               "Edward Gourdin" "Robert Le"      "Hart Hubbard"  
+    ##  [1] NA               "Edward Gourdin" "Robert Le"      "DeHart Hubbard"
     ##  [5] "Edward Hamm"    "Sylvio Cator"   "Chuhei Nambu"   "Jesse Owens"   
     ##  [9] "Ralph Boston"   "Ralph Boston"   "Ralph Boston"   "Igor Ter"      
     ## [13] "Ralph Boston"   "Ralph Boston"   "Ralph Boston"   "Igor Ter"      
@@ -464,7 +470,7 @@ not include the apostrophe.
 
 ``` r
 # works for Peter O'Connor only
-str_extract(tbl$Athlete, pattern = "[A-Z][a-z]+ [A-Z]'[A-Z][a-z]+")
+str_extract(tbl$Athlete, pattern = "[A-Z][a-z][A-Z]?[a-z]+ [A-Z]'[A-Z][a-z]+")
 ```
 
     ##  [1] "Peter O'Connor" NA               NA               NA              
@@ -477,7 +483,7 @@ What about this other pattern?
 
 ``` r
 # still only works for Peter O'Connor
-str_extract(tbl$Athlete, pattern = "[A-Z][a-z]+ [A-Z]'[A-Z]?[a-z]+")
+str_extract(tbl$Athlete, pattern = "[A-Z][a-z][A-Z]?[a-z]+ [A-Z]'[A-Z]?[a-z]+")
 ```
 
     ##  [1] "Peter O'Connor" NA               NA               NA              
@@ -497,10 +503,10 @@ letters to be optional, so we need to add quantifiers `"?"` to both of
 them:
 
 ``` r
-str_extract(tbl$Athlete, pattern = "[A-Z][a-z]+ [A-Z]'?[A-Z]?[a-z]+")
+str_extract(tbl$Athlete, pattern = "[A-Z][a-z][A-Z]?[a-z]+ [A-Z]'?[A-Z]?[a-z]+")
 ```
 
-    ##  [1] "Peter O'Connor" "Edward Gourdin" "Robert Le"      "Hart Hubbard"  
+    ##  [1] "Peter O'Connor" "Edward Gourdin" "Robert Le"      "DeHart Hubbard"
     ##  [5] "Edward Hamm"    "Sylvio Cator"   "Chuhei Nambu"   "Jesse Owens"   
     ##  [9] "Ralph Boston"   "Ralph Boston"   "Ralph Boston"   "Igor Ter"      
     ## [13] "Ralph Boston"   "Ralph Boston"   "Ralph Boston"   "Igor Ter"      
@@ -508,14 +514,29 @@ str_extract(tbl$Athlete, pattern = "[A-Z][a-z]+ [A-Z]'?[A-Z]?[a-z]+")
 
 If you want to treat a set of characters as a single unit, you must wrap
 them inside
-    parentheses:
+parentheses:
 
 ``` r
-str_extract(tbl$Athlete, pattern = "[A-Z][a-z]+ [A-Z]('[A-Z])?[a-z]+")
+str_extract(tbl$Athlete, pattern = "[A-Z][a-z][A-Z]?[a-z]+ [A-Z]('[A-Z])?[a-z]+")
 ```
 
-    ##  [1] "Peter O'Connor" "Edward Gourdin" "Robert Le"      "Hart Hubbard"  
+    ##  [1] "Peter O'Connor" "Edward Gourdin" "Robert Le"      "DeHart Hubbard"
     ##  [5] "Edward Hamm"    "Sylvio Cator"   "Chuhei Nambu"   "Jesse Owens"   
     ##  [9] "Ralph Boston"   "Ralph Boston"   "Ralph Boston"   "Igor Ter"      
     ## [13] "Ralph Boston"   "Ralph Boston"   "Ralph Boston"   "Igor Ter"      
     ## [17] "Bob Beamon"     "Mike Powell"
+
+The regrex pattern used so far can definitely be simplified with a
+repeated **word** character class `"\\w+"` (recall that `"\\w+"` is
+equivalent to `"[0-9A-Za-z_]"`)
+
+``` r
+str_extract(tbl$Athlete, pattern = "\\w+ \\w+")
+```
+
+    ##  [1] "Peter O"         "Edward Gourdin"  "Robert LeGendre"
+    ##  [4] "DeHart Hubbard"  "Edward Hamm"     "Sylvio Cator"   
+    ##  [7] "Chuhei Nambu"    "Jesse Owens"     "Ralph Boston"   
+    ## [10] "Ralph Boston"    "Ralph Boston"    "Igor Ter"       
+    ## [13] "Ralph Boston"    "Ralph Boston"    "Ralph Boston"   
+    ## [16] "Igor Ter"        "Bob Beamon"      "Mike Powell"

@@ -313,22 +313,24 @@ str_extract(tbl$Athlete, pattern = "\\w+")
 
 ### First and Last Names
 
+Now let's try to extract the athletes' first and last names. We could specify a regex pattern for the first name `[A-Z][a-z][A-Z]?[a-z]+`, followed by a space, followed by an uper case letter, and one or more lower case letters ` [A-Z][a-z]+`:
+
 ```{r}
-str_extract(tbl$Athlete, pattern = "[A-Z][a-z]+ [A-Z][a-z]+")
+str_extract(tbl$Athlete, pattern = "[A-Z][a-z][A-Z]?[a-z]+ [A-Z][a-z]+")
 ```
 
 What about the first athlete Peter O'Connor? The previous pattern does not include the apostrophe.
 
 ```{r}
 # works for Peter O'Connor only
-str_extract(tbl$Athlete, pattern = "[A-Z][a-z]+ [A-Z]'[A-Z][a-z]+")
+str_extract(tbl$Athlete, pattern = "[A-Z][a-z][A-Z]?[a-z]+ [A-Z]'[A-Z][a-z]+")
 ```
 
 What about this other pattern?
 
 ```{r}
 # still only works for Peter O'Connor
-str_extract(tbl$Athlete, pattern = "[A-Z][a-z]+ [A-Z]'[A-Z]?[a-z]+")
+str_extract(tbl$Athlete, pattern = "[A-Z][a-z][A-Z]?[a-z]+ [A-Z]'[A-Z]?[a-z]+")
 ```
 
 Recall that the quantifier (or repetition) operators have an effect on the preceding token. So, the pattern `"[A-Z]'[A-Z]?[a-z]+"` means: an upper case letter, followed by an apostrophe, followed by an optional upper case, followed by one or more lower case letters. In other words, the quantifier `"?"` only has an effect on the second upper case letter.
@@ -336,13 +338,18 @@ Recall that the quantifier (or repetition) operators have an effect on the prece
 In reality, we want both the apostrophe and the second upper case letters to be optional, so we need to add quantifiers `"?"` to both of them:
 
 ```{r}
-str_extract(tbl$Athlete, pattern = "[A-Z][a-z]+ [A-Z]'?[A-Z]?[a-z]+")
+str_extract(tbl$Athlete, pattern = "[A-Z][a-z][A-Z]?[a-z]+ [A-Z]'?[A-Z]?[a-z]+")
 ```
 
 If you want to treat a set of characters as a single unit, you must wrap them inside parentheses:
 
 ```{r}
-str_extract(tbl$Athlete, pattern = "[A-Z][a-z]+ [A-Z]('[A-Z])?[a-z]+")
+str_extract(tbl$Athlete, pattern = "[A-Z][a-z][A-Z]?[a-z]+ [A-Z]('[A-Z])?[a-z]+")
 ```
 
+The regrex pattern used so far can definitely be simplified with a repeated __word__ character class `"\\w+"` (recall that `"\\w+"` is equivalent to `"[0-9A-Za-z_]"`)
+
+```{r}
+str_extract(tbl$Athlete, pattern = "\\w+ \\w+")
+```
 
