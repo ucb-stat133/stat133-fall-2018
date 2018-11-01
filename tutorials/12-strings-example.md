@@ -526,9 +526,43 @@ str_extract(tbl$Athlete, pattern = "[A-Z][a-z][A-Z]?[a-z]+ [A-Z]('[A-Z])?[a-z]+"
     ## [13] "Ralph Boston"   "Ralph Boston"   "Ralph Boston"   "Igor Ter"      
     ## [17] "Bob Beamon"     "Mike Powell"
 
-The regrex pattern used so far can definitely be simplified with a
-repeated **word** character class `"\\w+"` (recall that `"\\w+"` is
-equivalent to `"[0-9A-Za-z_]"`)
+We still have an issue with athlete `Igor Ter-Ovanesyan`. The patterns
+used so far are only matching the the characters in his last name before
+the hyphen. We can start by adding a escaped hyphen inside the character
+set `"[a-z\\-]"` at the end of the
+pattern:
+
+``` r
+str_extract(tbl$Athlete, pattern = "[A-Z][a-z][A-Z]?[a-z]+ [A-Z]('[A-Z])?[a-z\\-]+")
+```
+
+    ##  [1] "Peter O'Connor" "Edward Gourdin" "Robert Le"      "DeHart Hubbard"
+    ##  [5] "Edward Hamm"    "Sylvio Cator"   "Chuhei Nambu"   "Jesse Owens"   
+    ##  [9] "Ralph Boston"   "Ralph Boston"   "Ralph Boston"   "Igor Ter-"     
+    ## [13] "Ralph Boston"   "Ralph Boston"   "Ralph Boston"   "Igor Ter-"     
+    ## [17] "Bob Beamon"     "Mike Powell"
+
+Notice that this pattern does match the hyphen but fails to match the
+second part of the last name (the one after the hyphen). This is because
+our token is only matching lower case letters. So we also need to
+include upper case letters in the character set:
+`"[a-zA-Z\\-]"`
+
+``` r
+str_extract(tbl$Athlete, pattern = "[A-Z][a-z][A-Z]?[a-z]+ [A-Z]('[A-Z])?[a-zA-Z\\-]+")
+```
+
+    ##  [1] "Peter O'Connor"     "Edward Gourdin"     "Robert LeGendre"   
+    ##  [4] "DeHart Hubbard"     "Edward Hamm"        "Sylvio Cator"      
+    ##  [7] "Chuhei Nambu"       "Jesse Owens"        "Ralph Boston"      
+    ## [10] "Ralph Boston"       "Ralph Boston"       "Igor Ter-Ovanesyan"
+    ## [13] "Ralph Boston"       "Ralph Boston"       "Ralph Boston"      
+    ## [16] "Igor Ter-Ovanesyan" "Bob Beamon"         "Mike Powell"
+
+The regex patterns that involve a set such as `"[a-zA-Z]"` can be
+simplified with a repeated **word** character class `"\\w+"` (recall
+that `"\\w+"` is equivalent to `"[0-9A-Za-z_]"`). We can try to use two
+repeated word classes:
 
 ``` r
 str_extract(tbl$Athlete, pattern = "\\w+ \\w+")
@@ -540,3 +574,19 @@ str_extract(tbl$Athlete, pattern = "\\w+ \\w+")
     ## [10] "Ralph Boston"    "Ralph Boston"    "Igor Ter"       
     ## [13] "Ralph Boston"    "Ralph Boston"    "Ralph Boston"   
     ## [16] "Igor Ter"        "Bob Beamon"      "Mike Powell"
+
+As you know, we also need to include an apostrphe and the hyphen. In
+this case, we can include them inside parentheses and separating them
+with the OR operator
+    `"|"`:
+
+``` r
+str_extract(tbl$Athlete, pattern = "\\w+ (\\w|-|')+")
+```
+
+    ##  [1] "Peter O'Connor"     "Edward Gourdin"     "Robert LeGendre"   
+    ##  [4] "DeHart Hubbard"     "Edward Hamm"        "Sylvio Cator"      
+    ##  [7] "Chuhei Nambu"       "Jesse Owens"        "Ralph Boston"      
+    ## [10] "Ralph Boston"       "Ralph Boston"       "Igor Ter-Ovanesyan"
+    ## [13] "Ralph Boston"       "Ralph Boston"       "Ralph Boston"      
+    ## [16] "Igor Ter-Ovanesyan" "Bob Beamon"         "Mike Powell"

@@ -347,9 +347,26 @@ If you want to treat a set of characters as a single unit, you must wrap them in
 str_extract(tbl$Athlete, pattern = "[A-Z][a-z][A-Z]?[a-z]+ [A-Z]('[A-Z])?[a-z]+")
 ```
 
-The regrex pattern used so far can definitely be simplified with a repeated __word__ character class `"\\w+"` (recall that `"\\w+"` is equivalent to `"[0-9A-Za-z_]"`)
+We still have an issue with athlete `Igor Ter-Ovanesyan`. The patterns used so far are only matching the the characters in his last name before the hyphen. We can start by adding a escaped hyphen inside the character set `"[a-z\\-]"` at the end of the pattern:
+
+```{r}
+str_extract(tbl$Athlete, pattern = "[A-Z][a-z][A-Z]?[a-z]+ [A-Z]('[A-Z])?[a-z\\-]+")
+```
+
+Notice that this pattern does match the hyphen but fails to match the second part of the last name (the one after the hyphen). This is because our token is only matching lower case letters. So we also need to include upper case letters in the character set: `"[a-zA-Z\\-]"`
+
+```{r}
+str_extract(tbl$Athlete, pattern = "[A-Z][a-z][A-Z]?[a-z]+ [A-Z]('[A-Z])?[a-zA-Z\\-]+")
+```
+
+The regex patterns that involve a set such as `"[a-zA-Z]"` can be simplified with a repeated __word__ character class `"\\w+"` (recall that `"\\w+"` is equivalent to `"[0-9A-Za-z_]"`). We can try to use two repeated word classes:
 
 ```{r}
 str_extract(tbl$Athlete, pattern = "\\w+ \\w+")
 ```
 
+As you know, we also need to include an apostrphe and the hyphen. In this case, we can include them inside parentheses and separating them with the OR operator `"|"`:
+
+```{r}
+str_extract(tbl$Athlete, pattern = "\\w+ (\\w|-|')+")
+```
