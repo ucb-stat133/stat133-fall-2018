@@ -30,7 +30,7 @@ In this tutorial, we’ll be using the text file `may-logs.txt` located in
 the `data/` folder of the course github
 repo:
 
-<https://raw.githubusercontent.com/ucb-stat133/stat133-spring-2018/master/data/may-logs.txt>
+<https://raw.githubusercontent.com/ucb-stat133/stat133-fall-2018/master/data/may-logs.txt>
 
 This file is a **server log file** that contains the recorded events
 taking place in a web server. The content of the file is in a special
