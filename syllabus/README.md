@@ -254,7 +254,7 @@ On the Data side, we begin our discussion about Tables: the most common form in 
 - :file_folder: __Notes__:
     + [Regexpal](http://regexpal.com.s3-website-us-east-1.amazonaws.com/) tester tool.
     + [Long Jump World Record example](../tutorials/12-strings-example.md)
-    + [Log file example](../tutorials/13-intro-to-regex.md)
+    + [Log file example](../tutorials/13-more-regex.md)
 - :book: __Reading__:
     + [Handling Strings in R](http://www.gastonsanchez.com/r4strings) (by Sanchez)
 - :microscope: __Lab__:
