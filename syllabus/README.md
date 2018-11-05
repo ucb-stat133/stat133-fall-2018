@@ -286,7 +286,7 @@ On the Data side, we begin our discussion about Tables: the most common form in 
 - :bulb: __Cheat sheet__:
     + [shiny cheat sheet](../cheatsheets/shiny-cheatsheet.pdf)
 - :dart: __WARM-UP 7__:
-    + [Strings and Regular Expressions](../hws/warmup07-regex.pdf) (due Nov-13)
+    + [Strings and Regular Expressions](../hws/warmup07-strings.pdf) (due Nov-13)
 
 
 -----
