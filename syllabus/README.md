@@ -273,7 +273,7 @@ On the Data side, we begin our discussion about Tables: the most common form in 
 - :card_index: __Dates__: Nov 05-09
 - :paperclip: __Topics__: Random numbers have many applications in science and computer programming, especially when there are significant uncertainties in a phenomenon of interest. In this part of the course we'll look at some basic problems involving working with random numbers and creating simulations. Jointly, we will briefly discuss Shiny apps to better visualize the results of some simulations. This type of apps are a nice companion to R, making it quick and simple to deliver interactive analysis and graphics on any web browser.
 - :file_folder: __Notes__:
-    + [Introduction to random numbers](../tutorials/16-intro-to-random-numbers.md)
+    + [Introduction to random numbers](../tutorials/14-intro-to-random-numbers.md)
     + [Coin toss shiny app](../apps/coin-toss)
     + [shiny tutorial](../slides/shiny-tutorial.pdf) (by Grolemund)
 - :book: __Reading__:
@@ -286,7 +286,7 @@ On the Data side, we begin our discussion about Tables: the most common form in 
 - :bulb: __Cheat sheet__:
     + [shiny cheat sheet](../cheatsheets/shiny-cheatsheet.pdf)
 - :dart: __WARM-UP 7__:
-    + [Strings and Regular Expressions](../hws/hw04-strings-regex.pdf) (due Nov-13)
+    + [Strings and Regular Expressions](../hws/warmup07-regex.pdf) (due Nov-13)
 
 
 -----
