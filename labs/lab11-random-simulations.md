@@ -116,7 +116,7 @@ other words:
 
 2.  The random experiment involves generating a uniform random number
     using `runif(1)`. If this number is greater than 0.5, get a
-    `sample()` without replacement of `size = 4` from `box1.` Otherwise,
+    `sample()` with replacement of `size = 4` from `box1.` Otherwise,
     get a `sample()` without replacement of `size = 4` from `box2`.
 
 3.  Repeat the experiment 1000 times using a `for` loop. To store the
