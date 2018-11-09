@@ -294,11 +294,11 @@ On the Data side, we begin our discussion about Tables: the most common form in 
 
 ## 12. R packaging (part 1)
 
-- :card_index: __Dates__: Nov 12-16
+- :card_index: __Dates__: Nov 12-16 _(Holiday Nov-12)_
 - :paperclip: __Topics__: Packages are the fundamental units of reproducible R code. They include reusable functions, the documentation that describes how to use them, and sample data. In this part we'll start describing how to turn your code into an R package.
 - :file_folder: __Notes__:
-    + [Programming S3 Classes](../tutorials/17-programming-s3classes.pdf)
-    + [Pack YouR Code](http://www.gastonsanchez.com/packyourcode) (by Sanchez)
+    + [Programming S3 Classes](http://www.gastonsanchez.com/packyourcode/coin.html)
+    + [Methods](http://www.gastonsanchez.com/packyourcode/methods1.html) (by Sanchez)
 - :book: __Reading__:
     + [Package Structure](http://r-pkgs.had.co.nz/package.html) (R packages by Wickham)
     + See package components: [http://r-pkgs.had.co.nz/](http://r-pkgs.had.co.nz/) (R packages by Wickham)
