@@ -258,7 +258,7 @@ On the Data side, we begin our discussion about Tables: the most common form in 
 - :book: __Reading__:
     + [Handling Strings in R](http://www.gastonsanchez.com/r4strings) (by Sanchez)
 - :microscope: __Lab__:
-    + [Regular Expressions](../labs/lab10-regex-basics.md)
+    + [Regular Expressions](../labs/lab10-regex-basics.md) (due Nov-02)
 - :bulb: __Cheat sheet__:
     + [Regular Expressions cheat sheet](../cheatsheets/regular-expressions-cheatsheet.pdf)
 - :dart: __WORK-OUT 2__:
