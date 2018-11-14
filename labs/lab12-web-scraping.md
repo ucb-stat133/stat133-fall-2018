@@ -8,6 +8,17 @@ Gaston Sanchez
 >   - Learn to extract html elements and attributes
 >   - Create a simple crawler
 
+### General Instructions
+
+  - Write your descriptions and code, for the first part of this lab, in
+    an `Rmd` (R markdown) file.
+  - Name this file as `lab12-first-last.Rmd`, where `first` and `last`
+    are your first and last names (e.g. `lab12-gaston-sanchez.Rmd`).
+  - Knit your `Rmd` file as an html document (default option).
+  - Submit your `Rmd` and `html` files to bCourses, in the corresponding
+    lab assignment.
+  - Due date displayed in the syllabus (see github repo).
+
 -----
 
 ## Required Packages
