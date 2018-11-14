@@ -306,8 +306,8 @@ On the Data side, we begin our discussion about Tables: the most common form in 
     + [HTML and Web scraping](../labs/lab12-web-scraping.md) (due Nov-17)
 - :bulb: __Cheat sheet__:
     + [Package Development cheat sheet](../cheatsheets/packages-cheatsheet.pdf)
-- :dart: __WORK-OUT__: due Nov-30
-    + R package
+- :dart: __WORK-OUT 3__: 
+    + [R package](../hws/workout03-package-roller.pdf) due Nov-30
 
 
 -----
