@@ -333,7 +333,7 @@ On the Data side, we begin our discussion about Tables: the most common form in 
 - :book: __Reading__:
     + See package components: [http://r-pkgs.had.co.nz](http://r-pkgs.had.co.nz/) (R packages by Wickham)
 - :microscope: __Lab__:
-    + TBA
+    + Take advantage of lab discussion to work on the workout03 assignment
 - :bulb: __Cheat sheet__:
     + [Package Development cheat sheet](../cheatsheets/packages-cheatsheet.pdf)
 
@@ -347,7 +347,7 @@ On the Data side, we begin our discussion about Tables: the most common form in 
 - :paperclip: __Topics__: Prepare for final examination
 - :file_folder: __Notes__:
     + No lecture. Instructor will hold OH (in 309 Evans)
-- :mortar_board: __FINAL__: Mon Dec-10, 7-10pm (room TBD)
+- :mortar_board: __FINAL__: Mon Dec-10, 7-10pm (rooms HEGYM228 and DWIN155)
     + See announcement about the final test on bCourses
 
 
