@@ -307,7 +307,7 @@ On the Data side, we begin our discussion about Tables: the most common form in 
 - :bulb: __Cheat sheet__:
     + [Package Development cheat sheet](../cheatsheets/packages-cheatsheet.pdf)
 - :dart: __WORK-OUT 3__: 
-    + [R package](../hws/workout03-package-roller.pdf) due Nov-30
+    + [R package](../hws/workout03-package-roller.pdf) due Dec-02
 
 
 -----
