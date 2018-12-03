@@ -43,7 +43,7 @@ for participation.
 - You must attend the discussion group you are officially registered in.
 - Do not take the class if you cannot attend the discussion you are registered in.
 - Lab assignments will be released every week, and their solutions will be posted on bCourses after submission deadlines.
-- Due to the ever-present logistical issues at the beginning of every semester, we will keep a grace submission period for lasb 1 and 2 till Sep-15.
+- Due to the ever-present logistical issues at the beginning of every semester, we will keep a grace submission period for labs 1 and 2 till Sep-15.
 - You will be encouraged to problem solve individually or in groups.
 - Each person must submit each lab independently to bCourses, but you are welcome to collaborate with other students in your lab room.
 - To receive credit, you must attend lab, work on the lab assignment until you're finished or the lab period is over, and get checked off by a course staff member.
