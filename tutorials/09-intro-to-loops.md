@@ -182,7 +182,7 @@ set.seed(4321)
 numbers <- rnorm(5)
 
 for (h in 1:length(numbers)) {
-  if (values[h] < 0) {
+  if (numbers[h] < 0) {
     value <- sqrt(-numbers[h])
   } else {
     value <- sqrt(numbers[h])
@@ -191,7 +191,11 @@ for (h in 1:length(numbers)) {
 }
 ```
 
-    ## Error: object 'values' not found
+    ## [1] 0.6532667
+    ## [1] 0.4728761
+    ## [1] 0.8471168
+    ## [1] 0.9173035
+    ## [1] 0.3582698
 
 ### For Loops and Next statement
 
